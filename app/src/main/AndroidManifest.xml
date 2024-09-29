@@ -13,6 +13,36 @@
         android:theme="@style/Theme.MyApplicationKotlin"
         tools:targetApi="31">
         <activity
+            android:name=".bajarpeso.receta10b"
+            android:exported="false" />
+        <activity
+            android:name=".bajarpeso.receta9b"
+            android:exported="false" />
+        <activity
+            android:name=".bajarpeso.receta8b"
+            android:exported="false" />
+        <activity
+            android:name=".bajarpeso.receta7b"
+            android:exported="false" />
+        <activity
+            android:name=".bajarpeso.receta6b"
+            android:exported="false" />
+        <activity
+            android:name=".bajarpeso.receta5b"
+            android:exported="false" />
+        <activity
+            android:name=".bajarpeso.receta4b"
+            android:exported="false" />
+        <activity
+            android:name=".bajarpeso.receta3b"
+            android:exported="false" />
+        <activity
+            android:name=".bajarpeso.receta2b"
+            android:exported="false" />
+        <activity
+            android:name=".bajarpeso.receta1b"
+            android:exported="false" />
+        <activity
             android:name=".MantenerPeso"
             android:exported="false" />
         <activity

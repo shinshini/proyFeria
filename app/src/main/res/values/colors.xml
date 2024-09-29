@@ -3,15 +3,15 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="color1">#FF000000</color>
-    <color name="color2">#FFFFFFFF</color>
-    <color name="color3">#FF000000</color>
-    <color name="color4">#FFFFFFFF</color>
-    <color name="color5">#FF000000</color>
-    <color name="color6">#FFFFFFFF</color>
-    <color name="color7">#FF000000</color>
-    <color name="color8">#FFFFFFFF</color>
-    <color name="color9">#FF000000</color>
-    <color name="color10">#FFFFFFFF</color>
+    <color name="color1">#D2FF72</color>
+    <color name="color2">#73EC8B</color>
+    <color name="color3">#15B392</color>
+    <color name="color4">#C4D7FF</color>
+    <color name="color5">#7CF5FF</color>
+    <color name="color6">#C7FFD8</color>
+    <color name="color7">#48CFCB</color>
+    <color name="color8">#9DBDFF</color>
+    <color name="color9">#36C2CE</color>
+    <color name="color10">#009FBD</color>
 
 </resources>
