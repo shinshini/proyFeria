@@ -12,7 +12,7 @@
         android:id="@+id/appName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/logo"
+
         android:layout_centerHorizontal="true"
 
         android:layout_marginTop="40dp"
@@ -58,12 +58,14 @@
             android:id="@+id/textInputEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp">
+            android:layout_marginTop="10dp"
+            android:background="@drawable/caja">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/editTextEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#3E03A9F4"
                 android:hint="Correo electrónico" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -71,7 +73,8 @@
             android:id="@+id/textInputPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp">
+            android:layout_marginTop="16dp"
+            android:background="@drawable/caja">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/editTextPassword"
@@ -86,7 +89,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="Iniciar sesión" />
+            android:background="@drawable/boton"
+            android:text="Iniciar sesión"
+            app:backgroundTint="@null" />
 
     </LinearLayout>
 
