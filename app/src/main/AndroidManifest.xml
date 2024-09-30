@@ -13,6 +13,66 @@
         android:theme="@style/Theme.MyApplicationKotlin"
         tools:targetApi="31">
         <activity
+            android:name=".subirpeso.receta10s"
+            android:exported="false" />
+        <activity
+            android:name=".subirpeso.receta9s"
+            android:exported="false" />
+        <activity
+            android:name=".subirpeso.receta8s"
+            android:exported="false" />
+        <activity
+            android:name=".subirpeso.receta7s"
+            android:exported="false" />
+        <activity
+            android:name=".subirpeso.receta6s"
+            android:exported="false" />
+        <activity
+            android:name=".subirpeso.receta5s"
+            android:exported="false" />
+        <activity
+            android:name=".subirpeso.receta4s"
+            android:exported="false" />
+        <activity
+            android:name=".subirpeso.receta3s"
+            android:exported="false" />
+        <activity
+            android:name=".subirpeso.receta2s"
+            android:exported="false" />
+        <activity
+            android:name=".subirpeso.receta1s"
+            android:exported="false" />
+        <activity
+            android:name=".mantenerpeso.receta3m"
+            android:exported="false" />
+        <activity
+            android:name=".mantenerpeso.receta10m"
+            android:exported="false" />
+        <activity
+            android:name=".mantenerpeso.receta9m"
+            android:exported="false" />
+        <activity
+            android:name=".mantenerpeso.receta8m"
+            android:exported="false" />
+        <activity
+            android:name=".mantenerpeso.receta7m"
+            android:exported="false" />
+        <activity
+            android:name=".mantenerpeso.receta6m"
+            android:exported="false" />
+        <activity
+            android:name=".mantenerpeso.receta5m"
+            android:exported="false" />
+        <activity
+            android:name=".mantenerpeso.receta4m"
+            android:exported="false" />
+        <activity
+            android:name=".mantenerpeso.receta2m"
+            android:exported="false" />
+        <activity
+            android:name=".mantenerpeso.receta1m"
+            android:exported="false" />
+        <activity
             android:name=".bajarpeso.receta10b"
             android:exported="false" />
         <activity

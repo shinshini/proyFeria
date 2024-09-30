@@ -7,11 +7,15 @@ import android.view.View
 import android.widget.CheckBox
 import android.widget.EditText
 import android.widget.RadioGroup
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.google.android.material.button.MaterialButton
+import java.text.ParseException
+import java.text.SimpleDateFormat
+import java.util.Locale
 
 
 class MainActivity : AppCompatActivity() {
@@ -62,8 +66,13 @@ class MainActivity : AppCompatActivity() {
 
         // Verificar si todos los campos están llenos
         if (name.isBlank() || lastName.isBlank() || dateOfBirth.isBlank() || goal.isBlank() || selectedGoal == null) {
-            // Mostrar un mensaje de error
-            println("Por favor, completa todos los campos.")
+            Toast.makeText(this, "Por favor, completa todos los campos.", Toast.LENGTH_SHORT).show()
+            return
+        }
+
+        // Validar la fecha de nacimiento
+        if (!isValidDate(dateOfBirth)) {
+            Toast.makeText(this, "Por favor, introduce una fecha válida (dd/MM/yyyy).", Toast.LENGTH_SHORT).show()
             return
         }
 
@@ -86,6 +95,18 @@ class MainActivity : AppCompatActivity() {
         // Iniciar la actividad solo si el intent no es nulo
         intent?.let {
             startActivity(it)
+        }
+    }
+
+    private fun isValidDate(date: String): Boolean {
+        // Ejemplo de validación básica de fecha (dd/MM/yyyy)
+        val dateFormat = SimpleDateFormat("dd/MM/yyyy", Locale.getDefault())
+        dateFormat.isLenient = false
+        return try {
+            dateFormat.parse(date)
+            true
+        } catch (e: ParseException) {
+            false
         }
     }
 

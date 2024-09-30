@@ -8,7 +8,7 @@
     android:id="@+id/main"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".bajarpeso.receta9b"
+    tools:context=".subirpeso.receta8s"
     android:background="@color/color4">
 
     <!-- Header -->
