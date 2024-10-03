@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -12,6 +16,8 @@
     android:background="@color/color4">
 
     <!-- Header -->
+
+
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -53,7 +59,7 @@
         android:id="@+id/tv_pan_huevos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="PAN CON HUEVOS Y AGUACATE"
+        android:text="ENSALADA DE LENTEJAS"
         android:textSize="24sp"
         android:textStyle="bold"
         android:textColor="@android:color/black"
@@ -64,41 +70,59 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:layout_marginBottom="16dp"
         android:gravity="center"
-        android:layout_marginBottom="16dp">
+        android:orientation="horizontal">
 
         <!-- Tiempo -->
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+
+            android:layout_width="132dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
             android:orientation="vertical"
-            android:padding="8dp"
-            android:gravity="center">
-            <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:src="@drawable/ra" />
+            android:padding="8dp">
 
             <TextView
                 android:layout_width="68dp"
                 android:layout_height="wrap_content"
-                android:text="10 min"
+                android:text="TIEMPO"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/reloj" />
+
+            <TextView
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:text="25 minutos"
+                android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="14sp" />
         </LinearLayout>
 
         <!-- Raciones -->
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
             android:orientation="vertical"
-            android:padding="8dp"
-            android:gravity="center">
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RACIONES"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:src="@drawable/ra" />
+                android:src="@drawable/usu" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -110,20 +134,29 @@
 
         <!-- Dificultad -->
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:gravity="center"
             android:orientation="vertical"
-            android:padding="8dp"
-            android:gravity="center">
-            <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:src="@drawable/ra" />
+            android:padding="8dp">
 
             <TextView
                 android:layout_width="92dp"
                 android:layout_height="wrap_content"
-                android:text="Fácil"
+                android:text="DIFICULTAD"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/utin" />
+
+            <TextView
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:text="Intermedio"
+                android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="14sp" />
         </LinearLayout>
@@ -145,7 +178,7 @@
             android:layout_weight="1">
 
             <TextView
-                android:layout_width="169dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="INGREDIENTES"
                 android:textColor="@android:color/black"
@@ -155,15 +188,54 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="500g At ipsum vitae est lac."
+                android:text="> 150 g lentejas o lentejones cocidos"
                 android:textColor="@android:color/black"
                 android:layout_marginTop="8dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="250g Maecenas elit orci, gravida."
-                android:textColor="@android:color/black" />
+                android:text="1 tomate mediano en cubos"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="> 1 cebolla chica picada"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="> 1 papa chica en cubos hervida"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="> 1 diente ajo picado fino"
+                android:textColor="@android:color/black"
+
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="> sal a gusto"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="> jugo de limón"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="> 3 cucharadas aceite de oliva o girasol"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp"/>
         </LinearLayout>
 
         <!-- Tip Experto -->
@@ -171,28 +243,31 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:padding="8dp"
             app:cardCornerRadius="8dp"
-            app:cardElevation="4dp"
-            android:padding="8dp">
+            app:cardElevation="4dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="295dp"
+                android:layout_margin="5dp"
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="155dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
                     android:text="Tip Experto"
+                    android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="60dp"
+                    android:layout_height="154dp"
                     android:layout_marginTop="8dp"
-                    android:text="Morbi dictum. Vestibulum pulvinar quam."
+
+                    android:text="Las legumbres, como las lentejas y el boniato, nos aportan una buena dosis de proteína vegetal. Además, es un plato saludable y equilibrado, perfecto también para acompañar carnes, pescados u otros platos. ¡Qué pinta!"
                     android:textColor="@android:color/black" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -200,8 +275,8 @@
 
     <!-- Elaboración -->
     <LinearLayout
-        android:layout_width="200dp"
-        android:layout_height="112dp"
+        android:layout_width="379dp"
+        android:layout_height="190dp"
         android:layout_marginBottom="16dp"
         android:orientation="vertical">
 
@@ -217,21 +292,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Paso 1: Lorem ipsum dolor sit."
+            android:text="Paso 1: Colocar en un bol o asadera las lentejas. Yo usé lentejones que se cocinan muy rápido previo remojo durante al noche o por algunas horas."
             android:textColor="@android:color/black" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Paso 2: Lorem ipsum dolor sit."
+            android:text="Paso 2: Agregar el tomate en cubos, la cebolla picada fina y el diente de ajo picado fino."
             android:textColor="@android:color/black" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Paso 3: Lorem ipsum dolor sit."
+            android:text="Paso 3:
+Añadir la papa, una chica o mediana, hervida y cortada en cubos. Condimentar con sal, orégano si te gusta le queda bien, jugo de medio limón y el aceite. Listo!!"
             android:textColor="@android:color/black" />
     </LinearLayout>
 
@@ -246,3 +322,4 @@
         android:layout_gravity="center" />
 
 </LinearLayout>
+</ScrollView>
