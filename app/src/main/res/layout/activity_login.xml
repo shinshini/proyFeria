@@ -15,28 +15,27 @@
 
         android:layout_centerHorizontal="true"
 
-        android:layout_marginTop="40dp"
-        android:fontFamily="@font/angkor"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/alfa_slab_one"
 
         android:padding="16dp"
-        android:shadowColor="@color/color9"
+        android:shadowColor="@color/color13"
         android:shadowDx="5"
         android:shadowDy="12"
         android:shadowRadius="10"
         android:text="Sweet Home"
         android:textAlignment="center"
-        android:textColor="@color/color6"
-        android:textSize="40sp"
+        android:textColor="@color/color44"
+        android:textSize="45sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView11"
-        android:layout_width="172dp"
-        android:layout_height="218dp"
-        android:layout_marginTop="24dp"
+        android:layout_width="241dp"
+        android:layout_height="259dp"
+        android:layout_marginTop="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,9 +43,9 @@
         app:srcCompat="@drawable/logounop" />
 
     <LinearLayout
-        android:layout_width="399dp"
-        android:layout_height="273dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="372dp"
+        android:layout_height="269dp"
+        android:layout_marginTop="12dp"
         android:orientation="vertical"
         android:padding="20dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,14 +58,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:background="@drawable/caja">
+            android:background="@drawable/caja"
+            android:backgroundTint="#AB432D9D"
+            android:textColorHint="#E0FFFFFF">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/editTextEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#3E03A9F4"
-                android:hint="Correo electrónico" />
+
+
+                android:hint="Correo electrónico"
+                android:shadowColor="#1F3EEB" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -74,7 +77,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:background="@drawable/caja">
+
+            android:background="@drawable/caja"
+            android:backgroundTint="#AB432D9D"
+            android:textColorHint="#E0FFFFFF">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/editTextPassword"
@@ -86,11 +92,13 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_ingresarReg"
-            android:layout_width="match_parent"
+            android:layout_width="330dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:background="@drawable/boton"
+            android:fontFamily="@font/acme"
             android:text="Iniciar sesión"
+            android:textSize="20sp"
             app:backgroundTint="@null" />
 
     </LinearLayout>

@@ -47,9 +47,15 @@
     <color name="color36">#FEC7B4</color>
 
     <color name="color37">#F6995C</color>
-    <color name="color39">#E1AFD1</color>
-    <color name="color40">#C5EBAA</color>
-    <color name="color41">#FFF67E</color>
-    <color name="color42">#9AD0C2</color>
+    <color name="color38">#E1AFD1</color>
+    <color name="color49">#C5EBAA</color>
+    <color name="color40">#FFF67E</color>
+    <color name="color41">#9AD0C2</color>
+
+    <color name="color42">#A2FF86</color>
+    <color name="color43">#16FF00</color>
+    <color name="color44">#03C988</color>
+    <color name="color45">#B3FFAE</color>
+    <color name="color46">#38E54D</color>
 
 </resources>
