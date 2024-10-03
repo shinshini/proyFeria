@@ -48,7 +48,7 @@
 
     <color name="color37">#F6995C</color>
     <color name="color38">#E1AFD1</color>
-    <color name="color49">#C5EBAA</color>
+    <color name="color39">#C5EBAA</color>
     <color name="color40">#FFF67E</color>
     <color name="color41">#9AD0C2</color>
 
@@ -57,5 +57,11 @@
     <color name="color44">#03C988</color>
     <color name="color45">#B3FFAE</color>
     <color name="color46">#38E54D</color>
+
+    <color name="color47">#347928</color>
+    <color name="color48">#0A6847</color>
+    <color name="color49">#004225</color>
+    <color name="color50">#62760C</color>
+    <color name="color51">#059212</color>
 
 </resources>

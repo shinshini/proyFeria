@@ -244,13 +244,15 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:padding="8dp"
+
             app:cardCornerRadius="8dp"
             app:cardElevation="4dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="295dp"
+                android:layout_height="221dp"
                 android:layout_margin="5dp"
+                android:background="@color/color40"
                 android:orientation="vertical">
 
                 <TextView
@@ -258,7 +260,8 @@
                     android:layout_height="32dp"
                     android:text="Tip Experto"
                     android:textAlignment="center"
-                    android:textColor="@android:color/black"
+                    android:background="@color/color47"
+                    android:textColor="@android:color/white"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -266,7 +269,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="154dp"
                     android:layout_marginTop="8dp"
-
+                    android:padding="10dp"
                     android:text="Las legumbres, como las lentejas y el boniato, nos aportan una buena dosis de proteína vegetal. Además, es un plato saludable y equilibrado, perfecto también para acompañar carnes, pescados u otros platos. ¡Qué pinta!"
                     android:textColor="@android:color/black" />
             </LinearLayout>
@@ -274,41 +277,52 @@
     </LinearLayout>
 
     <!-- Elaboración -->
+    <TextView
+        android:layout_width="227dp"
+        android:layout_height="40dp"
+        android:fontFamily="@font/adlam_display"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="ELABORACIÓN:"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
     <LinearLayout
         android:layout_width="379dp"
-        android:layout_height="190dp"
+        android:layout_height="250dp"
         android:layout_marginBottom="16dp"
+        android:background="@color/color47"
         android:orientation="vertical">
 
-        <TextView
-            android:layout_width="253dp"
-            android:layout_height="wrap_content"
-            android:text="ELABORACIÓN"
-            android:textColor="@android:color/black"
-            android:textSize="16sp"
-            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:justificationMode="inter_word"
             android:text="Paso 1: Colocar en un bol o asadera las lentejas. Yo usé lentejones que se cocinan muy rápido previo remojo durante al noche o por algunas horas."
-            android:textColor="@android:color/black" />
+            android:textColor="@android:color/white" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
+            android:padding="10dp"
+            android:justificationMode="inter_word"
             android:text="Paso 2: Agregar el tomate en cubos, la cebolla picada fina y el diente de ajo picado fino."
-            android:textColor="@android:color/black" />
+            android:textColor="@android:color/white" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
+            android:padding="10dp"
+            android:justificationMode="inter_word"
             android:text="Paso 3:
 Añadir la papa, una chica o mediana, hervida y cortada en cubos. Condimentar con sal, orégano si te gusta le queda bien, jugo de medio limón y el aceite. Listo!!"
-            android:textColor="@android:color/black" />
+            android:textColor="@android:color/white" />
     </LinearLayout>
 
     <!-- Más recetas -->
