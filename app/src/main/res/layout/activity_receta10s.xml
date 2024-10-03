@@ -13,7 +13,7 @@
     android:id="@+id/main"
     android:padding="16dp"
     tools:context=".subirpeso.receta10s"
-    android:background="@color/color4">
+    android:background="@drawable/fondoe">
 
     <!-- Header -->
 
@@ -50,7 +50,7 @@
             android:id="@+id/iv_receta"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ra"
+            android:src="@drawable/ensalenteja"
             android:scaleType="centerCrop" />
     </com.google.android.material.card.MaterialCardView>
 
@@ -148,8 +148,8 @@
                 android:textSize="14sp" />
 
             <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="47dp"
+                android:layout_height="27dp"
                 android:src="@drawable/utin" />
 
             <TextView
