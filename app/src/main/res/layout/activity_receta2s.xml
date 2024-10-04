@@ -12,7 +12,7 @@
         android:orientation="vertical"
         android:id="@+id/main"
         android:padding="16dp"
-        tools:context=".subirpeso.receta10s"
+        tools:context=".subirpeso.receta2s"
         android:background="@drawable/fondoe">
 
         <!-- Header -->
@@ -50,7 +50,7 @@
                 android:id="@+id/iv_receta"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/ensalenteja"
+                android:src="@drawable/galleta"
                 android:scaleType="centerCrop" />
         </com.google.android.material.card.MaterialCardView>
 
@@ -59,7 +59,7 @@
             android:id="@+id/receta10s"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ENSALADA DE LENTEJAS"
+            android:text="GALLETAS DE QUINOA"
             android:textSize="24sp"
             android:textStyle="bold"
             android:textColor="@android:color/black"
@@ -81,7 +81,7 @@
 
                 android:layout_width="132dp"
                 android:layout_height="match_parent"
-                android:background="#F8009FBD"
+                android:background="#77180A0A"
                 android:gravity="center"
                 android:orientation="vertical"
                 android:padding="2dp">
@@ -93,7 +93,7 @@
                     android:fontFamily="@font/adlam_display"
                     android:text="TIEMPO"
                     android:textAlignment="center"
-                    android:textColor="@android:color/black"
+                    android:textColor="@android:color/white"
                     android:textSize="14sp" />
 
                 <ImageView
@@ -106,10 +106,11 @@
                 <TextView
                     android:layout_width="118dp"
                     android:layout_height="wrap_content"
-                    android:background="@color/color1"
-                    android:text="25 minutos"
+
+                    android:text="15 minutos"
                     android:textAlignment="center"
-                    android:textColor="@android:color/black"
+                    android:fontFamily="@font/adlam_display"
+                    android:textColor="@android:color/white"
                     android:textSize="14sp" />
             </LinearLayout>
 
@@ -117,7 +118,7 @@
             <LinearLayout
                 android:layout_width="125dp"
                 android:layout_height="match_parent"
-                android:background="@color/color1"
+                android:background="#77180A0A"
                 android:gravity="center"
                 android:orientation="vertical"
                 android:padding="8dp">
@@ -128,7 +129,7 @@
                     android:fontFamily="@font/adlam_display"
                     android:text="RACIONES"
                     android:background="@drawable/borde_black"
-                    android:textColor="@android:color/black"
+                    android:textColor="@android:color/white"
                     android:textSize="14sp"
                     />
 
@@ -142,10 +143,10 @@
                 <TextView
                     android:layout_width="97dp"
                     android:layout_height="wrap_content"
-                    android:background="@color/color10"
-                    android:text="2 personas"
+                    android:text="6 raciones"
                     android:textAlignment="center"
-                    android:textColor="@android:color/black"
+                    android:fontFamily="@font/adlam_display"
+                    android:textColor="@android:color/white"
                     android:textSize="14sp" />
             </LinearLayout>
 
@@ -153,7 +154,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="103dp"
-                android:background="@color/color10"
+                android:background="#77180A0A"
                 android:gravity="center"
                 android:orientation="vertical"
                 android:padding="8dp">
@@ -164,7 +165,7 @@
                     android:fontFamily="@font/adlam_display"
                     android:text="DIFICULTAD"
                     android:background="@drawable/borde_black"
-                    android:textColor="@android:color/black"
+                    android:textColor="@android:color/white"
                     android:textSize="14sp" />
 
                 <ImageView
@@ -177,10 +178,10 @@
                 <TextView
                     android:layout_width="122dp"
                     android:layout_height="wrap_content"
-                    android:background="@color/color1"
-                    android:text="Intermedio"
+                    android:text="Facil"
                     android:textAlignment="center"
-                    android:textColor="@android:color/black"
+                    android:fontFamily="@font/adlam_display"
+                    android:textColor="@android:color/white"
                     android:textSize="14sp" />
             </LinearLayout>
         </LinearLayout>
@@ -225,7 +226,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="150 g Lentejas o lentejones cocidos"
+                        android:text="½ taza quinoa en granos pelados"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -247,7 +248,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Tomate mediano en cubos"
+                        android:text="2 huevos batidos"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -269,7 +270,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Cebolla chica picada"
+                        android:text="12 cdas harina integral"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -291,7 +292,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Papa chica en cubos hervida"
+                        android:text="1 sobre levadura royal"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -313,7 +314,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Diente ajo picado fino"
+                        android:text="4 cdas aceite"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -335,7 +336,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text=" Sal a gusto"
+                        android:text="2 cdas mantequilla de cacahuete"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white"/>
                 </LinearLayout>
@@ -357,7 +358,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="Jugo de limó"
+                        android:text="6 cdas azúcar morena"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -379,7 +380,28 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="3 Cucharadas aceite de oliva o girasol"
+                        android:text="1 taza leche"
+                        android:fontFamily="@font/adlam_display"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="27dp"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:src="@drawable/tener" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="1 vaina vainilla"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -420,7 +442,7 @@
                         android:background="@color/color48"
                         android:fontFamily="@font/adlam_display"
                         android:padding="10dp"
-                        android:text="Las legumbres, como las lentejas y el boniato, nos aportan una buena dosis de proteína vegetal. Además, es un plato saludable y equilibrado, perfecto también para acompañar carnes, pescados u otros platos. ¡Qué pinta!"
+                        android:text="Es una deliciosa galleta nativa boliviana, perfecta para disfrutar como merienda en el trabajo o durante viajes. Con su textura crujiente y sabor dulce, es un bocado irresistible que combina tradición y sabor en cada mordisco."
                         android:textAlignment="center"
                         android:textColor="@color/color29" />
                 </LinearLayout>
@@ -453,7 +475,8 @@
                 android:layout_marginTop="8dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:text="Paso 1: Colocar en un bol o asadera las lentejas. Yo usé lentejones que se cocinan muy rápido previo remojo durante al noche o por algunas horas."
+                android:text="Paso 1:
+Poner las semillas de quinoa, la harina integral y el polvo royal en un robot o batidora hasta mezclar y que las semillas quinoa se muelan."
                 android:textColor="@android:color/white" />
 
             <TextView
@@ -462,7 +485,7 @@
                 android:layout_marginTop="4dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:text="Paso 2: Agregar el tomate en cubos, la cebolla picada fina y el diente de ajo picado fino."
+                android:text="Paso 2: Unir la mantequilla con el aceite (preferente si es de semillas como de sésamo genial), agregar el azúcar y batir hasta obtener una preparación esponjosa y uniforme."
                 android:textColor="@android:color/white" />
 
             <TextView
@@ -471,14 +494,23 @@
                 android:layout_marginTop="4dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:text="Paso 3:
-Añadir la papa, una chica o mediana, hervida y cortada en cubos. Condimentar con sal, orégano si te gusta le queda bien, jugo de medio limón y el aceite. Listo!!"
+                android:text="Paso 3:Por último con el pelapapas sacar un raspado de vainilla y agrega a los huevos batidos, verter a la mezcla y agregar poco a poco las harinas hasta que nos quede una mezcla blanda y algo liquida."
+                android:textColor="@android:color/white" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Paso 2: Engrasar con mantequilla una placa de horno, verter sobre ella cucharadas del preparado dejando espacio entre ellas. Llevar al horno previamente calentado a 200ºC y hornear durante 10 minutos, tiene que quedar con coloo o doradas. Retirar y espera que se enfríen."
                 android:textColor="@android:color/white" />
         </LinearLayout>
 
         <!-- Más recetas -->
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btn_mas_recetas"
+            android:id="@+id/btn_mas_recetas2S"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
