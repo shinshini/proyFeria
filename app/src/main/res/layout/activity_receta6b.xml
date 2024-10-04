@@ -1,248 +1,492 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:id="@+id/main"
-    android:padding="16dp"
-    tools:context=".bajarpeso.receta6b"
-    android:background="@color/color4">
-
-    <!-- Header -->
-    <com.google.android.material.card.MaterialCardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:cardBackgroundColor="@color/color7"
-        app:cardCornerRadius="8dp"
-        app:cardElevation="4dp"
-        android:layout_marginBottom="16dp">
-
-        <TextView
-            android:id="@+id/tv_recetas_faciles"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="RECETAS FÁCILES"
-            android:textColor="@android:color/white"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:gravity="center"
-            android:padding="16dp" />
-    </com.google.android.material.card.MaterialCardView>
-
-    <!-- Imagen principal de receta -->
-    <com.google.android.material.card.MaterialCardView
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginBottom="16dp"
-        app:cardCornerRadius="8dp"
-        app:cardElevation="4dp">
-
-        <ImageView
-            android:id="@+id/iv_receta"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/ra"
-            android:scaleType="centerCrop" />
-    </com.google.android.material.card.MaterialCardView>
-
-    <!-- Título de receta -->
-    <TextView
-        android:id="@+id/tv_pan_huevos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="PAN CON HUEVOS Y AGUACATE"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:textColor="@android:color/black"
-        android:layout_gravity="center"
-        android:layout_marginBottom="16dp" />
-
-    <!-- Información (Tiempo, Raciones, Dificultad) -->
+    android:layout_height="match_parent">
     <LinearLayout
+
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_marginBottom="16dp">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/main"
+        android:padding="16dp"
+        tools:context=".subirpeso.receta10s"
+        android:background="@drawable/fondoe">
 
-        <!-- Tiempo -->
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="8dp"
-            android:gravity="center">
-            <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:src="@drawable/ra" />
+        <!-- Header -->
 
-            <TextView
-                android:layout_width="68dp"
-                android:layout_height="wrap_content"
-                android:text="10 min"
-                android:textColor="@android:color/black"
-                android:textSize="14sp" />
-        </LinearLayout>
 
-        <!-- Raciones -->
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="8dp"
-            android:gravity="center">
-            <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:src="@drawable/ra" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="2 personas"
-                android:textColor="@android:color/black"
-                android:textSize="14sp" />
-        </LinearLayout>
-
-        <!-- Dificultad -->
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="8dp"
-            android:gravity="center">
-            <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:src="@drawable/ra" />
-
-            <TextView
-                android:layout_width="92dp"
-                android:layout_height="wrap_content"
-                android:text="Fácil"
-                android:textColor="@android:color/black"
-                android:textSize="14sp" />
-        </LinearLayout>
-    </LinearLayout>
-
-    <!-- Ingredientes y Tip Experto -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_marginBottom="16dp">
-
-        <!-- Ingredientes -->
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_weight="1">
-
-            <TextView
-                android:layout_width="169dp"
-                android:layout_height="wrap_content"
-                android:text="INGREDIENTES"
-                android:textColor="@android:color/black"
-                android:textSize="16sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="500g At ipsum vitae est lac."
-                android:textColor="@android:color/black"
-                android:layout_marginTop="8dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="250g Maecenas elit orci, gravida."
-                android:textColor="@android:color/black" />
-        </LinearLayout>
-
-        <!-- Tip Experto -->
         <com.google.android.material.card.MaterialCardView
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            app:cardBackgroundColor="@color/color7"
             app:cardCornerRadius="8dp"
             app:cardElevation="4dp"
-            android:padding="8dp">
+            android:layout_marginBottom="16dp">
 
-            <LinearLayout
+            <TextView
+                android:id="@+id/tv_recetas_faciles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RECETAS FÁCILES"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="16dp" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Imagen principal de receta -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+
+            <ImageView
+                android:id="@+id/iv_receta"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="155dp"
-                    android:layout_height="wrap_content"
-                    android:text="Tip Experto"
-                    android:textColor="@android:color/black"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="60dp"
-                    android:layout_marginTop="8dp"
-                    android:text="Morbi dictum. Vestibulum pulvinar quam."
-                    android:textColor="@android:color/black" />
-            </LinearLayout>
+                android:src="@drawable/ensalenteja"
+                android:scaleType="centerCrop" />
         </com.google.android.material.card.MaterialCardView>
-    </LinearLayout>
 
-    <!-- Elaboración -->
-    <LinearLayout
-        android:layout_width="200dp"
-        android:layout_height="112dp"
-        android:layout_marginBottom="16dp"
-        android:orientation="vertical">
-
+        <!-- Título de receta -->
         <TextView
-            android:layout_width="253dp"
+            android:id="@+id/receta10s"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ELABORACIÓN"
+            android:text="ENSALADA DE LENTEJAS"
+            android:textSize="24sp"
+            android:textStyle="bold"
             android:textColor="@android:color/black"
-            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/borde_black"/>
+
+        <!-- Información (Tiempo, Raciones, Dificultad) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/borde_black"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <!-- Tiempo -->
+            <LinearLayout
+
+                android:layout_width="132dp"
+                android:layout_height="match_parent"
+                android:background="#F8009FBD"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borde_black"
+                    android:fontFamily="@font/adlam_display"
+                    android:text="TIEMPO"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="3dp"
+                    android:src="@drawable/reloj" />
+
+                <TextView
+                    android:layout_width="118dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color1"
+                    android:text="25 minutos"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <!-- Raciones -->
+            <LinearLayout
+                android:layout_width="125dp"
+                android:layout_height="match_parent"
+                android:background="@color/color1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/adlam_display"
+                    android:text="RACIONES"
+                    android:background="@drawable/borde_black"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    />
+
+                <ImageView
+                    android:layout_width="37dp"
+                    android:layout_height="35dp"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="3dp"
+                    android:src="@drawable/usu" />
+
+                <TextView
+                    android:layout_width="97dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color10"
+                    android:text="2 personas"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <!-- Dificultad -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="103dp"
+                android:background="@color/color10"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="92dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/adlam_display"
+                    android:text="DIFICULTAD"
+                    android:background="@drawable/borde_black"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="51dp"
+                    android:layout_height="34dp"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="3dp"
+                    android:src="@drawable/utin" />
+
+                <TextView
+                    android:layout_width="122dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color1"
+                    android:text="Intermedio"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INGREDIENTES:"
+            android:fontFamily="@font/adlam_display"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <!-- Ingredientes y Tip Experto -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <!-- Ingredientes -->
+            <LinearLayout
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:background="#337E37"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="27dp"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:src="@drawable/tener" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="150 g Lentejas o lentejones cocidos"
+                        android:fontFamily="@font/adlam_display"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="27dp"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:src="@drawable/tener" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="1 Tomate mediano en cubos"
+                        android:fontFamily="@font/adlam_display"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="27dp"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:src="@drawable/tener" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="1 Cebolla chica picada"
+                        android:fontFamily="@font/adlam_display"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="27dp"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:src="@drawable/tener" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="1 Papa chica en cubos hervida"
+                        android:fontFamily="@font/adlam_display"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="27dp"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:src="@drawable/tener" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="1 Diente ajo picado fino"
+                        android:fontFamily="@font/adlam_display"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="27dp"
+                        android:layout_height="match_parent"
+                        android:paddingTop="3dp"
+                        android:paddingBottom="3dp"
+                        android:src="@drawable/tener" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text=" Sal a gusto"
+                        android:fontFamily="@font/adlam_display"
+                        android:textColor="@android:color/white"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="27dp"
+                        android:layout_height="match_parent"
+                        android:paddingTop="3dp"
+                        android:paddingBottom="3dp"
+                        android:src="@drawable/tener" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="Jugo de limó"
+                        android:fontFamily="@font/adlam_display"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="27dp"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:src="@drawable/tener" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="3 Cucharadas aceite de oliva o girasol"
+                        android:fontFamily="@font/adlam_display"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Tip Experto -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="296dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:padding="8dp"
+
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="296dp"
+                    android:layout_margin="5dp"
+
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:background="@color/color47"
+                        android:text="Tip Experto"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="245dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@color/color48"
+                        android:fontFamily="@font/adlam_display"
+                        android:padding="10dp"
+                        android:text="Las legumbres, como las lentejas y el boniato, nos aportan una buena dosis de proteína vegetal. Además, es un plato saludable y equilibrado, perfecto también para acompañar carnes, pescados u otros platos. ¡Qué pinta!"
+                        android:textAlignment="center"
+                        android:textColor="@color/color29" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+        <!-- Elaboración -->
+        <TextView
+            android:layout_width="227dp"
+            android:layout_height="40dp"
+            android:fontFamily="@font/adlam_display"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="ELABORACIÓN:"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="Paso 1: Lorem ipsum dolor sit."
-            android:textColor="@android:color/black" />
+            android:layout_marginBottom="16dp"
+            android:background="@color/color47"
+            android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:text="Paso 2: Lorem ipsum dolor sit."
-            android:textColor="@android:color/black" />
 
-        <TextView
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Paso 1: Colocar en un bol o asadera las lentejas. Yo usé lentejones que se cocinan muy rápido previo remojo durante al noche o por algunas horas."
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Paso 2: Agregar el tomate en cubos, la cebolla picada fina y el diente de ajo picado fino."
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Paso 3:
+Añadir la papa, una chica o mediana, hervida y cortada en cubos. Condimentar con sal, orégano si te gusta le queda bien, jugo de medio limón y el aceite. Listo!!"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <!-- Más recetas -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_mas_recetas"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:text="Paso 3: Lorem ipsum dolor sit."
-            android:textColor="@android:color/black" />
+            android:layout_gravity="center"
+            android:background="@drawable/boton2"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="Más recetas"
+            android:textColor="@android:color/white"
+            app:backgroundTint="@null" />
+
     </LinearLayout>
-
-    <!-- Más recetas -->
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_mas_recetas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Más recetas"
-        android:textColor="@android:color/white"
-        app:backgroundTint="@color/color7"
-        android:layout_gravity="center" />
-
-</LinearLayout>
+</ScrollView>
