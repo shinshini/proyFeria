@@ -50,7 +50,7 @@
                 android:id="@+id/iv_receta"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/ensalenteja"
+                android:src="@drawable/trucha"
                 android:scaleType="centerCrop" />
         </com.google.android.material.card.MaterialCardView>
 
@@ -59,7 +59,7 @@
             android:id="@+id/receta10s"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ENSALADA DE LENTEJAS"
+            android:text="TRUCHA AL HORNO CON LIMON"
             android:textSize="24sp"
             android:textStyle="bold"
             android:textColor="@android:color/black"
@@ -107,7 +107,7 @@
                     android:layout_width="118dp"
                     android:layout_height="wrap_content"
 
-                    android:text="30 minutos"
+                    android:text="20 minutos"
                     android:textAlignment="center"
                     android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white"
@@ -143,7 +143,7 @@
                 <TextView
                     android:layout_width="97dp"
                     android:layout_height="wrap_content"
-                    android:text="4 personas"
+                    android:text="4 porciones"
                     android:textAlignment="center"
                     android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white"
@@ -178,7 +178,7 @@
                 <TextView
                     android:layout_width="122dp"
                     android:layout_height="wrap_content"
-                    android:text="Facil"
+                    android:text="Medio"
                     android:textAlignment="center"
                     android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white"
@@ -226,7 +226,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="150 g Lentejas o lentejones cocidos"
+                        android:text="2
+cucharadas de mantequilla derretida, divididas"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -248,7 +249,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Tomate mediano en cubos"
+                        android:text="2 cucharadas de aceite de oliva"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -270,7 +271,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Cebolla chica picada"
+                        android:text="2 cucharaditas de sal de ajo"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -292,7 +293,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Papa chica en cubos hervida"
+                        android:text="2 cucharaditas de comino"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -314,7 +315,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Diente ajo picado fino"
+                        android:text="2 cucharaditas de pimienta molida fresca"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -336,7 +337,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text=" Sal a gusto"
+                        android:text="1 mitad de una trucha entera de 8-12 oz, sin cabeza ni espinas"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white"/>
                 </LinearLayout>
@@ -358,7 +359,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="Jugo de limó"
+                        android:text="4 rodajas de limón"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -380,7 +381,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="3 Cucharadas aceite de oliva o girasol"
+                        android:text="1/2 taza de cilantro lavado y picado"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -421,7 +422,7 @@
                         android:background="@color/color48"
                         android:fontFamily="@font/adlam_display"
                         android:padding="10dp"
-                        android:text="Las legumbres, como las lentejas y el boniato, nos aportan una buena dosis de proteína vegetal. Además, es un plato saludable y equilibrado, perfecto también para acompañar carnes, pescados u otros platos. ¡Qué pinta!"
+                        android:text="La trucha es uno de los alimentos más saludables que podemos incorporar a nuestra alimentación, ya que además de ser rica en vitaminas y minerales, también alberga proteínas de alto valor biológico"
                         android:textAlignment="center"
                         android:textColor="@color/color29" />
                 </LinearLayout>
@@ -454,7 +455,7 @@
                 android:layout_marginTop="8dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:text="Paso 1: Colocar en un bol o asadera las lentejas. Yo usé lentejones que se cocinan muy rápido previo remojo durante al noche o por algunas horas."
+                android:text="Paso 1: Precalienta el horno a 350°F. Cubre una bandeja con aceite en spray"
                 android:textColor="@android:color/white" />
 
             <TextView
@@ -463,7 +464,7 @@
                 android:layout_marginTop="4dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:text="Paso 2: Agregar el tomate en cubos, la cebolla picada fina y el diente de ajo picado fino."
+                android:text="Paso 2:En un recipiente pequeño, mezcla la mantequilla, el aceite de oliva, la sal de ajo, el comino y la pimienta."
                 android:textColor="@android:color/white" />
 
             <TextView
@@ -472,14 +473,21 @@
                 android:layout_marginTop="4dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:text="Paso 3:
-Añadir la papa, una chica o mediana, hervida y cortada en cubos. Condimentar con sal, orégano si te gusta le queda bien, jugo de medio limón y el aceite. Listo!!"
+                android:text="Paso 3:Coloca la trucha en la bandeja y aplica la mezcla de la mantequilla. Coloca rodajas de limón encima y hornea hasta que la trucha se desarme fácilmente, por unos 15 minutos."
+                android:textColor="@android:color/white" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Paso 4:Retira del horno y esparce cilantro encima. Sirve de inmediato."
                 android:textColor="@android:color/white" />
         </LinearLayout>
 
         <!-- Más recetas -->
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btn_mas_recetas"
+            android:id="@+id/btn_mas_recetas3M"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
