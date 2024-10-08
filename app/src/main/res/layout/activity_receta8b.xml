@@ -12,7 +12,7 @@
         android:orientation="vertical"
         android:id="@+id/main"
         android:padding="16dp"
-        tools:context=".subirpeso.receta10s"
+        tools:context=".bajarpeso.receta8b"
         android:background="@drawable/fondoe">
 
         <!-- Header -->
@@ -50,7 +50,7 @@
                 android:id="@+id/iv_receta"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/ensalenteja"
+                android:src="@drawable/quinuahuevo"
                 android:scaleType="centerCrop" />
         </com.google.android.material.card.MaterialCardView>
 
@@ -59,7 +59,7 @@
             android:id="@+id/receta10s"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ENSALADA DE LENTEJAS"
+            android:text="QUINUA CON HUEVO Y PALTA"
             android:textSize="24sp"
             android:textStyle="bold"
             android:textColor="@android:color/black"
@@ -107,7 +107,7 @@
                     android:layout_width="118dp"
                     android:layout_height="wrap_content"
 
-                    android:text="30 minutos"
+                    android:text="45 minutos"
                     android:textAlignment="center"
                     android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white"
@@ -143,7 +143,7 @@
                 <TextView
                     android:layout_width="97dp"
                     android:layout_height="wrap_content"
-                    android:text="4 personas"
+                    android:text="2 personas"
                     android:textAlignment="center"
                     android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white"
@@ -178,7 +178,7 @@
                 <TextView
                     android:layout_width="122dp"
                     android:layout_height="wrap_content"
-                    android:text="Facil"
+                    android:text="iNTERMEDIO"
                     android:textAlignment="center"
                     android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white"
@@ -226,7 +226,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="150 g Lentejas o lentejones cocidos"
+                        android:text="180 gr de quinoa."
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -248,7 +248,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Tomate mediano en cubos"
+                        android:text="2 huevos cocidos."
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -270,7 +270,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Cebolla chica picada"
+                        android:text="1 Aguacate."
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -292,7 +292,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Papa chica en cubos hervida"
+                        android:text="1 Hoja de hinojo"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -314,7 +314,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Diente ajo picado fino"
+                        android:text="vinagreta."
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -336,7 +336,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text=" Sal a gusto"
+                        android:text=" 1 cucharada de mostaza."
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white"/>
                 </LinearLayout>
@@ -358,7 +358,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="Jugo de limó"
+                        android:text="2 cucharadas de vinagre."
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -380,7 +380,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="3 Cucharadas aceite de oliva o girasol"
+                        android:text="2 cucharadas de Aceite Ideal"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -421,7 +421,7 @@
                         android:background="@color/color48"
                         android:fontFamily="@font/adlam_display"
                         android:padding="10dp"
-                        android:text="Las legumbres, como las lentejas y el boniato, nos aportan una buena dosis de proteína vegetal. Además, es un plato saludable y equilibrado, perfecto también para acompañar carnes, pescados u otros platos. ¡Qué pinta!"
+                        android:text="La quinoa con huevo y aguacate es una combinación nutritiva que proporciona proteínas completas gracias a la quinoa y el huevo, lo que ayuda en la reparación y construcción muscular. El aguacate aporta grasas saludables y fibra, promoviendo la salud cardiovascular y la saciedad. Además, es una opción rica en vitaminas y minerales, ideal para una comida equilibrada."
                         android:textAlignment="center"
                         android:textColor="@color/color29" />
                 </LinearLayout>
@@ -454,7 +454,13 @@
                 android:layout_marginTop="8dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:text="Paso 1: Colocar en un bol o asadera las lentejas. Yo usé lentejones que se cocinan muy rápido previo remojo durante al noche o por algunas horas."
+                android:text="Paso 1: Poner a cocer la quinoa en abundante agua hirviendo
+
+con un pellizco de sal, durante 10 minutos a fuego
+
+medio y dejar reposar 5 minutos. Cuela, enfría con
+
+agua y escurre. Reserva."
                 android:textColor="@android:color/white" />
 
             <TextView
@@ -463,7 +469,11 @@
                 android:layout_marginTop="4dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:text="Paso 2: Agregar el tomate en cubos, la cebolla picada fina y el diente de ajo picado fino."
+                android:text="Paso 2: Mezcla en un bol los ingredientes de la vinagreta,
+
+incorpora la quinoa, el aguacate troceado, y el huevo
+
+duro."
                 android:textColor="@android:color/white" />
 
             <TextView
@@ -472,14 +482,15 @@
                 android:layout_marginTop="4dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:text="Paso 3:
-Añadir la papa, una chica o mediana, hervida y cortada en cubos. Condimentar con sal, orégano si te gusta le queda bien, jugo de medio limón y el aceite. Listo!!"
+                android:text="Paso 3:Mezcla y rectifica de sal. Sirve y decora con algunas
+
+hojas de hinojo."
                 android:textColor="@android:color/white" />
         </LinearLayout>
 
         <!-- Más recetas -->
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btn_mas_recetas"
+            android:id="@+id/btn_mas_recetas8B"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
