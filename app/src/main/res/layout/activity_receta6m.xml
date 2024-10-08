@@ -12,7 +12,7 @@
         android:orientation="vertical"
         android:id="@+id/main"
         android:padding="16dp"
-        tools:context=".subirpeso.receta10s"
+        tools:context=".mantenerpeso.receta6m"
         android:background="@drawable/fondoe">
 
         <!-- Header -->
@@ -50,7 +50,7 @@
                 android:id="@+id/iv_receta"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/ensalenteja"
+                android:src="@drawable/guisolenteja"
                 android:scaleType="centerCrop" />
         </com.google.android.material.card.MaterialCardView>
 
@@ -59,9 +59,10 @@
             android:id="@+id/receta10s"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ENSALADA DE LENTEJAS"
+            android:text="GUISO DE LENTEJAS CON CARNE Y VERDURAS"
             android:textSize="24sp"
             android:textStyle="bold"
+            android:textAlignment="center"
             android:textColor="@android:color/black"
             android:layout_gravity="center"
             android:layout_marginBottom="16dp"
@@ -107,7 +108,7 @@
                     android:layout_width="118dp"
                     android:layout_height="wrap_content"
 
-                    android:text="30 minutos"
+                    android:text="40 minutos"
                     android:textAlignment="center"
                     android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white"
@@ -143,7 +144,7 @@
                 <TextView
                     android:layout_width="97dp"
                     android:layout_height="wrap_content"
-                    android:text="4 personas"
+                    android:text="5 personas"
                     android:textAlignment="center"
                     android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white"
@@ -178,7 +179,7 @@
                 <TextView
                     android:layout_width="122dp"
                     android:layout_height="wrap_content"
-                    android:text="Facil"
+                    android:text="Intermedio"
                     android:textAlignment="center"
                     android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white"
@@ -226,7 +227,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="150 g Lentejas o lentejones cocidos"
+                        android:text="2 Cdas de aceite"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -248,7 +249,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Tomate mediano en cubos"
+                        android:text=" 1 Cebolla mediana cortada en cubos pequeños"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -270,7 +271,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Cebolla chica picada"
+                        android:text="2 Zanahorias cortadas en rodajas"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -292,7 +293,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Papa chica en cubos hervida"
+                        android:text="1 Cdta de orégano"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -314,7 +315,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Diente ajo picado fino"
+                        android:text=" 1/4 Cdta de comino"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -336,7 +337,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text=" Sal a gusto"
+                        android:text=" 1/2 Cdta de ají color"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white"/>
                 </LinearLayout>
@@ -358,7 +359,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="Jugo de limó"
+                        android:text="1 Bandeja de carne molida de 250 g"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -380,9 +381,131 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="3 Cucharadas aceite de oliva o girasol"
+                        android:text=" 1 ½ Tazas de lentejas"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="27dp"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:src="@drawable/tener" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text=" 4 Tazas de agua"
+                        android:fontFamily="@font/adlam_display"
+                        android:textColor="@android:color/white" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="27dp"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:src="@drawable/tener" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="1 Cdta de sal"
+                        android:fontFamily="@font/adlam_display"
+                        android:textColor="@android:color/white" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="27dp"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:src="@drawable/tener" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="1 Taza de arvejas congeladas"
+                        android:fontFamily="@font/adlam_display"
+                        android:textColor="@android:color/white" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="27dp"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:src="@drawable/tener" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="2 Tazas de espinacas sin tallo"
+                        android:fontFamily="@font/adlam_display"
+                        android:textColor="@android:color/white" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="27dp"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:src="@drawable/tener" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="  1 Sobre de salsa de carne MAGGI®"
+                        android:fontFamily="@font/adlam_display"
+                        android:textColor="@android:color/white" />
+
+
                 </LinearLayout>
             </LinearLayout>
 
@@ -421,7 +544,7 @@
                         android:background="@color/color48"
                         android:fontFamily="@font/adlam_display"
                         android:padding="10dp"
-                        android:text="Las legumbres, como las lentejas y el boniato, nos aportan una buena dosis de proteína vegetal. Además, es un plato saludable y equilibrado, perfecto también para acompañar carnes, pescados u otros platos. ¡Qué pinta!"
+                        android:text="La receta es una excelente fuente de proteínas vegetales y fibra, lo que promueve la digestión y la saciedad. Además, aporta vitaminas y minerales esenciales para la salud. Es bajo en grasas saturadas y proporciona energía sostenida gracias a sus carbohidratos complejos. Es un plato nutritivo y sabroso."
                         android:textAlignment="center"
                         android:textColor="@color/color29" />
                 </LinearLayout>
@@ -454,7 +577,7 @@
                 android:layout_marginTop="8dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:text="Paso 1: Colocar en un bol o asadera las lentejas. Yo usé lentejones que se cocinan muy rápido previo remojo durante al noche o por algunas horas."
+                android:text="Paso 1: Calienta el aceite en una olla y sofríe la cebolla con el ajo y la zanahoria durante 6 min hasta cocerlos un poco, agrega el orégano con el comino, el ají color y revuelve. Luego agrega la carne e integra muy bien con los vegetales, de inmediato agrega las lentejas con el agua y 1 cdta de sal. Cocina a fuego medio desde que hierva durante 10 minutos."
                 android:textColor="@android:color/white" />
 
             <TextView
@@ -463,7 +586,7 @@
                 android:layout_marginTop="4dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:text="Paso 2: Agregar el tomate en cubos, la cebolla picada fina y el diente de ajo picado fino."
+                android:text="Paso 2:Luego agrega las arvejas con las hojas de espinacas y cocina durante 6 minutos mas removiendo de vez en cuando. Finalmente disuelve la salsa de carne MAGGI® en 200 ml de agua fría y vierte a la preparación caliente, cocina durante 5 minutos más hasta que tome mayor textura."
                 android:textColor="@android:color/white" />
 
             <TextView
@@ -472,14 +595,13 @@
                 android:layout_marginTop="4dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:text="Paso 3:
-Añadir la papa, una chica o mediana, hervida y cortada en cubos. Condimentar con sal, orégano si te gusta le queda bien, jugo de medio limón y el aceite. Listo!!"
+                android:text="Paso 3:Sirve de inmediato acompañado de una ensalada de tomates o algo fresco para esta deliciosa preparación."
                 android:textColor="@android:color/white" />
         </LinearLayout>
 
         <!-- Más recetas -->
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btn_mas_recetas"
+            android:id="@+id/btn_mas_recetas6M"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

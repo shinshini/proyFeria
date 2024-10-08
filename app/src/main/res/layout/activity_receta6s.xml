@@ -12,7 +12,7 @@
         android:orientation="vertical"
         android:id="@+id/main"
         android:padding="16dp"
-        tools:context=".subirpeso.receta10s"
+        tools:context=".subirpeso.receta6s"
         android:background="@drawable/fondoe">
 
         <!-- Header -->
@@ -50,7 +50,7 @@
                 android:id="@+id/iv_receta"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/ensalenteja"
+                android:src="@drawable/wallake"
                 android:scaleType="centerCrop" />
         </com.google.android.material.card.MaterialCardView>
 
@@ -59,7 +59,7 @@
             android:id="@+id/receta10s"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ENSALADA DE LENTEJAS"
+            android:text="WALLAKE"
             android:textSize="24sp"
             android:textStyle="bold"
             android:textColor="@android:color/black"
@@ -178,7 +178,7 @@
                 <TextView
                     android:layout_width="122dp"
                     android:layout_height="wrap_content"
-                    android:text="Facil"
+                    android:text="Intermedio"
                     android:textAlignment="center"
                     android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white"
@@ -226,7 +226,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="150 g Lentejas o lentejones cocidos"
+                        android:text="12 Pescados karachi"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -248,7 +248,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Tomate mediano en cubos"
+                        android:text="1/2 kilogramo de Chuño remojado"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -270,7 +270,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Cebolla chica picada"
+                        android:text="1 Ramita de q’oa"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -292,7 +292,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Papa chica en cubos hervida"
+                        android:text="9 Papas peladas y bien lavadas"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -314,7 +314,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Diente ajo picado fino"
+                        android:text="2 Cabezas de cebollas raspadas o picadas"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -336,7 +336,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text=" Sal a gusto"
+                        android:text="2 Dientes de ajo molidos"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white"/>
                 </LinearLayout>
@@ -358,7 +358,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="Jugo de limó"
+                        android:text="1 cucharilla de Comino"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -380,7 +380,29 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="3 Cucharadas aceite de oliva o girasol"
+                        android:text="2 cucharas de Ají amarillo molido"
+                        android:fontFamily="@font/adlam_display"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="27dp"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:src="@drawable/tener" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="1 pizca de Sal"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -389,9 +411,9 @@
             <!-- Tip Experto -->
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="0dp"
-                android:layout_height="296dp"
-                android:layout_weight="1"
+                android:layout_height="332dp"
                 android:layout_marginLeft="10dp"
+                android:layout_weight="1"
                 android:padding="8dp"
 
                 app:cardCornerRadius="8dp"
@@ -399,7 +421,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="296dp"
+                    android:layout_height="321dp"
                     android:layout_margin="5dp"
 
                     android:orientation="vertical">
@@ -416,12 +438,12 @@
 
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="245dp"
+                        android:layout_height="276dp"
                         android:layout_marginTop="8dp"
                         android:background="@color/color48"
                         android:fontFamily="@font/adlam_display"
                         android:padding="10dp"
-                        android:text="Las legumbres, como las lentejas y el boniato, nos aportan una buena dosis de proteína vegetal. Además, es un plato saludable y equilibrado, perfecto también para acompañar carnes, pescados u otros platos. ¡Qué pinta!"
+                        android:text="El pescado es una excelente fuente de vitamina B12, hierro y grasas saludables, esenciales para el desarrollo cerebral y la memoria. Ayuda a controlar el colesterol y es beneficioso para personas con diabetes, aportando pocas calorías y siendo saciante"
                         android:textAlignment="center"
                         android:textColor="@color/color29" />
                 </LinearLayout>
@@ -454,7 +476,7 @@
                 android:layout_marginTop="8dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:text="Paso 1: Colocar en un bol o asadera las lentejas. Yo usé lentejones que se cocinan muy rápido previo remojo durante al noche o por algunas horas."
+                android:text="Paso 1:Se comienza friendo en aceite la cebolla previamente raspada y mezclada con ajo molido, ají amarillo y comino."
                 android:textColor="@android:color/white" />
 
             <TextView
@@ -463,7 +485,7 @@
                 android:layout_marginTop="4dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:text="Paso 2: Agregar el tomate en cubos, la cebolla picada fina y el diente de ajo picado fino."
+                android:text="Paso 2:Se revuelve la preparación firmemente durante 5 minutos, luego se agrega la cantidad de dos litros de agua hervida."
                 android:textColor="@android:color/white" />
 
             <TextView
@@ -472,14 +494,37 @@
                 android:layout_marginTop="4dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:text="Paso 3:
-Añadir la papa, una chica o mediana, hervida y cortada en cubos. Condimentar con sal, orégano si te gusta le queda bien, jugo de medio limón y el aceite. Listo!!"
+                android:text="Paso 3:Se añade sal al gusto y la ramita de q'oa previamente lavada, y se deja cocer durante 15 minutos."
+                android:textColor="@android:color/white" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Paso 4: Posteriormente, se incorpora todo el pescado y se continúa la cocción por 5 o 10 minutos adicionales, teniendo en cuenta que la cocción del pescado es rápida y propensa a deshacerse si se excede."
+                android:textColor="@android:color/white" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Paso 5: En ollas o recipientes separados, se cocinan las papas y el chuño (previamente remojado) con sal al gusto."
+                android:textColor="@android:color/white" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Paso 6:Para servir la preparación, se colocan en platos hondos 3 pescados por persona, de 2 a 3 papas, el chuño, y finalmente se agrega caldo (el agua hervida empleada en la cocción)."
                 android:textColor="@android:color/white" />
         </LinearLayout>
 
         <!-- Más recetas -->
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btn_mas_recetas"
+            android:id="@+id/btn_mas_recetas6S"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

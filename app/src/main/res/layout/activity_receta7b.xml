@@ -12,7 +12,7 @@
         android:orientation="vertical"
         android:id="@+id/main"
         android:padding="16dp"
-        tools:context=".subirpeso.receta10s"
+        tools:context=".bajarpeso.receta7b"
         android:background="@drawable/fondoe">
 
         <!-- Header -->
@@ -50,7 +50,7 @@
                 android:id="@+id/iv_receta"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/ensalenteja"
+                android:src="@drawable/sopazanahoria"
                 android:scaleType="centerCrop" />
         </com.google.android.material.card.MaterialCardView>
 
@@ -59,8 +59,9 @@
             android:id="@+id/receta10s"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ENSALADA DE LENTEJAS"
+            android:text="SOPA DE ZANAHORIA Y JENGIBRE"
             android:textSize="24sp"
+            android:textAlignment="center"
             android:textStyle="bold"
             android:textColor="@android:color/black"
             android:layout_gravity="center"
@@ -107,7 +108,7 @@
                     android:layout_width="118dp"
                     android:layout_height="wrap_content"
 
-                    android:text="30 minutos"
+                    android:text="25 minutos"
                     android:textAlignment="center"
                     android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white"
@@ -226,7 +227,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="150 g Lentejas o lentejones cocidos"
+                        android:text="1 cubo de caldo de sabor vegetal MAGGI"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -248,7 +249,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Tomate mediano en cubos"
+                        android:text="2 tazas de agua"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -270,7 +271,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Cebolla chica picada"
+                        android:text="1 libra de zanahorias"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -292,7 +293,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Papa chica en cubos hervida"
+                        android:text="1 cucharada de jengibre rallado fresco"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -314,7 +315,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Diente ajo picado fino"
+                        android:text="1/2 cucharadita de hojas de tomillo fresco"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -336,7 +337,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text=" Sal a gusto"
+                        android:text="1 taza de cebolla picada"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white"/>
                 </LinearLayout>
@@ -358,7 +359,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="Jugo de limó"
+                        android:text="1 cucharada de aceite de canola"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -380,7 +381,51 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="3 Cucharadas aceite de oliva o girasol"
+                        android:text="1/2 cucharadita de sal"
+                        android:fontFamily="@font/adlam_display"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="27dp"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:src="@drawable/tener" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="1/4 cucharadita de pimienta negra molida"
+                        android:fontFamily="@font/adlam_display"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="27dp"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:src="@drawable/tener" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="1 taza de leche evaporada"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -389,9 +434,9 @@
             <!-- Tip Experto -->
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="0dp"
-                android:layout_height="296dp"
-                android:layout_weight="1"
+                android:layout_height="485dp"
                 android:layout_marginLeft="10dp"
+                android:layout_weight="1"
                 android:padding="8dp"
 
                 app:cardCornerRadius="8dp"
@@ -399,7 +444,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="296dp"
+                    android:layout_height="468dp"
                     android:layout_margin="5dp"
 
                     android:orientation="vertical">
@@ -416,12 +461,12 @@
 
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="245dp"
+                        android:layout_height="428dp"
                         android:layout_marginTop="8dp"
                         android:background="@color/color48"
                         android:fontFamily="@font/adlam_display"
                         android:padding="10dp"
-                        android:text="Las legumbres, como las lentejas y el boniato, nos aportan una buena dosis de proteína vegetal. Además, es un plato saludable y equilibrado, perfecto también para acompañar carnes, pescados u otros platos. ¡Qué pinta!"
+                        android:text="La sopa de zanahoria y jengibre es rica en antioxidantes y vitamina A, que promueven la salud ocular y la función inmunológica. El jengibre aporta propiedades antiinflamatorias y digestivas, ayudando a aliviar problemas estomacales. Además, es baja en calorías y alta en fibra, lo que favorece la saciedad y la digestión. Su combinación de sabores también la convierte en un plato reconfortante y nutritivo."
                         android:textAlignment="center"
                         android:textColor="@color/color29" />
                 </LinearLayout>
@@ -454,7 +499,7 @@
                 android:layout_marginTop="8dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:text="Paso 1: Colocar en un bol o asadera las lentejas. Yo usé lentejones que se cocinan muy rápido previo remojo durante al noche o por algunas horas."
+                android:text="Paso 1: Preparar el caldo con 2 tazas de agua de acuerdo con las instrucciones del paquete en una olla mediana; agregar las zanahorias, el jengibre y el tomillo al caldo preparado y llevar a hervor suave. En una sartén mediana, saltear la cebolla con aceite de canola hasta que esté transparente, luego agregar al caldo. Agregar sal y pimienta a la mezcla."
                 android:textColor="@android:color/white" />
 
             <TextView
@@ -463,7 +508,7 @@
                 android:layout_marginTop="4dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:text="Paso 2: Agregar el tomate en cubos, la cebolla picada fina y el diente de ajo picado fino."
+                android:text="Paso 2: Colocar la tapa sobre la olla y cocinar a fuego lento, hasta que las zanahorias estén tiernas."
                 android:textColor="@android:color/white" />
 
             <TextView
@@ -472,14 +517,30 @@
                 android:layout_marginTop="4dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:text="Paso 3:
-Añadir la papa, una chica o mediana, hervida y cortada en cubos. Condimentar con sal, orégano si te gusta le queda bien, jugo de medio limón y el aceite. Listo!!"
+                android:text="Paso 3:Transferir la mezcla a una licuadora, o usar una licuadora de inmersión para mezclar la sopa por completo. Luego regresar a la olla a fuego lento."
+                android:textColor="@android:color/white" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Paso 4:Agregar la leche evaporada y cocinar 2-3 minutos."
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:text="Paso 5:Servir la sopa en tazones y servir tibia."
                 android:textColor="@android:color/white" />
         </LinearLayout>
 
         <!-- Más recetas -->
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btn_mas_recetas"
+            android:id="@+id/btn_mas_recetas7B"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
