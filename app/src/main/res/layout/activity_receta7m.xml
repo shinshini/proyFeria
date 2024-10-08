@@ -12,7 +12,7 @@
         android:orientation="vertical"
         android:id="@+id/main"
         android:padding="16dp"
-        tools:context=".subirpeso.receta10s"
+        tools:context=".mantenerpeso.receta7m"
         android:background="@drawable/fondoe">
 
         <!-- Header -->
@@ -50,7 +50,7 @@
                 android:id="@+id/iv_receta"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/ensalenteja"
+                android:src="@drawable/sopazapallo"
                 android:scaleType="centerCrop" />
         </com.google.android.material.card.MaterialCardView>
 
@@ -59,7 +59,7 @@
             android:id="@+id/receta10s"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ENSALADA DE LENTEJAS"
+            android:text="SOPA DE ARROZ CON VERDURAS"
             android:textSize="24sp"
             android:textStyle="bold"
             android:textColor="@android:color/black"
@@ -143,7 +143,7 @@
                 <TextView
                     android:layout_width="97dp"
                     android:layout_height="wrap_content"
-                    android:text="4 personas"
+                    android:text="3 personas"
                     android:textAlignment="center"
                     android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white"
@@ -226,7 +226,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="150 g Lentejas o lentejones cocidos"
+                        android:text="1 taza  de arroz integral o el que más te guste"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -248,7 +248,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Tomate mediano en cubos"
+                        android:text="1 litro agua"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -270,7 +270,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Cebolla chica picada"
+                        android:text="1/2 cubito caldo de verduras"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -292,7 +292,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Papa chica en cubos hervida"
+                        android:text="1 zanahoria chica"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -314,7 +314,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Diente ajo picado fino"
+                        android:text="1 cuarto cebolla"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -336,7 +336,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text=" Sal a gusto"
+                        android:text="4 chauchas"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white"/>
                 </LinearLayout>
@@ -358,7 +358,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="Jugo de limó"
+                        android:text="1 rodaja zapallo"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -380,7 +380,28 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="3 Cucharadas aceite de oliva o girasol"
+                        android:text="Hojas apio"
+                        android:fontFamily="@font/adlam_display"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="27dp"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:src="@drawable/tener" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="Sal y condimento a gusto"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -421,7 +442,7 @@
                         android:background="@color/color48"
                         android:fontFamily="@font/adlam_display"
                         android:padding="10dp"
-                        android:text="Las legumbres, como las lentejas y el boniato, nos aportan una buena dosis de proteína vegetal. Además, es un plato saludable y equilibrado, perfecto también para acompañar carnes, pescados u otros platos. ¡Qué pinta!"
+                        android:text="La sopa de arroz integral con verduras es rica en fibra, lo que mejora la digestión y proporciona saciedad. Aporta vitaminas y minerales esenciales de las verduras, fortaleciendo el sistema inmunológico. Además, es baja en grasas y calorías, siendo ideal para una dieta equilibrada."
                         android:textAlignment="center"
                         android:textColor="@color/color29" />
                 </LinearLayout>
@@ -454,7 +475,7 @@
                 android:layout_marginTop="8dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:text="Paso 1: Colocar en un bol o asadera las lentejas. Yo usé lentejones que se cocinan muy rápido previo remojo durante al noche o por algunas horas."
+                android:text="Paso 1: Lavar bien las verduras a la zanahoria a la cebolla y al zapallo quitarle la piel y corta la chaucha el zapallo el zuquini la cebolla y la zanahoria en cubos medianos, picar las hojitas de apio."
                 android:textColor="@android:color/white" />
 
             <TextView
@@ -463,23 +484,15 @@
                 android:layout_marginTop="4dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:text="Paso 2: Agregar el tomate en cubos, la cebolla picada fina y el diente de ajo picado fino."
+                android:text="Paso 2: En una olla colocar el agua con las verduras y el cubito de caldo de verduras colocar sal no mucha ya que el caldo contiene bastante y el condimento que deseen llevar a fuego medio y cocinar por cinco minutos contando a partir cuando empieza a hervir, luego agregar el arroz y seguir cocinando hasta que veas que el arroz está listo. Una vez listo a disfrutar."
                 android:textColor="@android:color/white" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
-                android:justificationMode="inter_word"
-                android:padding="10dp"
-                android:text="Paso 3:
-Añadir la papa, una chica o mediana, hervida y cortada en cubos. Condimentar con sal, orégano si te gusta le queda bien, jugo de medio limón y el aceite. Listo!!"
-                android:textColor="@android:color/white" />
+
         </LinearLayout>
 
         <!-- Más recetas -->
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btn_mas_recetas"
+            android:id="@+id/btn_mas_recetas7M"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
