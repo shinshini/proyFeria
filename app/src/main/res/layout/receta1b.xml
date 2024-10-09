@@ -478,7 +478,7 @@ Añadir la papa, una chica o mediana, hervida y cortada en cubos. Condimentar co
 
         <!-- Más recetas -->
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btn_mas_recetas"
+            android:id="@+id/btn_mas_recetasB1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

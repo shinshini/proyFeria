@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_column="0"
+    app:layout_row="1">
+<RelativeLayout
+
     android:background="@color/color25"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,14 +18,14 @@
     <TextView
         android:id="@+id/tvTitulo"
         android:layout_width="match_parent"
-        android:layout_height="74dp"
-        android:fontFamily="sans-serif-black"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/angkor"
         android:paddingTop="12dp"
         android:text="RECETAS SALUDABLES "
         android:textAlignment="center"
-        android:textSize="35sp"
-
         android:textColor="@color/color17"
+
+        android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintTop_toTopOf="parent" />
@@ -41,13 +47,13 @@
         android:layout_below="@+id/tvTitulo"
         android:layout_marginTop="10dp"
         android:padding="4dp"
-        app:columnCount="2"
-        app:rowCount="2">
+        app:columnCount="1"
+        app:rowCount="1">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/btnReceta1s"
-            android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="10dp"
@@ -66,6 +72,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
+                    android:layout_margin="10dp"
                     app:srcCompat="@drawable/causa" />
 
                 <TextView
@@ -73,21 +80,22 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom|center_horizontal"
-                    android:layout_marginBottom="10dp"
+                    android:layout_marginBottom="30dp"
                     android:background="#AA000000"
                     android:padding="5dp"
-                    android:text="Receta"
+                    android:fontFamily="@font/angkor"
+                    android:text="Ver Receta"
                     android:textAlignment="center"
-                    android:textColor="@color/color5"
-                    android:textSize="18sp" /> <!-- Fondo semitransparente para legibilidad -->
+                    android:textColor="@color/color26"
+                    android:textSize="25sp" /> <!-- Fondo semitransparente para legibilidad -->
             </FrameLayout>
         </androidx.cardview.widget.CardView>
 
 
         <androidx.cardview.widget.CardView
             android:id="@+id/btnReceta2s"
-            android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="10dp"
@@ -106,6 +114,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
+                    android:layout_margin="10dp"
                     app:srcCompat="@drawable/galleta" />
 
                 <TextView
@@ -113,20 +122,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom|center_horizontal"
-                    android:layout_marginBottom="10dp"
+                    android:layout_marginBottom="30dp"
                     android:background="#AA000000"
                     android:padding="5dp"
-                    android:text="Receta"
+                    android:fontFamily="@font/angkor"
+                    android:text="Ver Receta"
                     android:textAlignment="center"
-                    android:textColor="@color/color5"
-                    android:textSize="18sp" /> <!-- Fondo semitransparente para legibilidad -->
+                    android:textColor="@color/color26"
+                    android:textSize="25sp" /> <!-- Fondo semitransparente para legibilidad -->
             </FrameLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/btnReceta3s"
-            android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="10dp"
@@ -145,6 +155,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
+                    android:layout_margin="10dp"
                     app:srcCompat="@drawable/sopavena" />
 
                 <TextView
@@ -152,20 +163,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom|center_horizontal"
-                    android:layout_marginBottom="10dp"
+                    android:layout_marginBottom="30dp"
                     android:background="#AA000000"
                     android:padding="5dp"
-                    android:text="Receta"
+                    android:fontFamily="@font/angkor"
+                    android:text="Ver Receta"
                     android:textAlignment="center"
-                    android:textColor="@color/color5"
-                    android:textSize="18sp" /> <!-- Fondo semitransparente para legibilidad -->
+                    android:textColor="@color/color26"
+                    android:textSize="25sp" /> <!-- Fondo semitransparente para legibilidad -->
             </FrameLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/btnReceta4s"
-            android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="10dp"
@@ -184,6 +196,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
+                    android:layout_margin="10dp"
                     app:srcCompat="@drawable/nidopasta" />
 
                 <TextView
@@ -191,20 +204,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom|center_horizontal"
-                    android:layout_marginBottom="10dp"
+                    android:layout_marginBottom="30dp"
                     android:background="#AA000000"
                     android:padding="5dp"
-                    android:text="Receta"
+                    android:fontFamily="@font/angkor"
+                    android:text="Ver Receta"
                     android:textAlignment="center"
-                    android:textColor="@color/color5"
-                    android:textSize="18sp" /> <!-- Fondo semitransparente para legibilidad -->
+                    android:textColor="@color/color26"
+                    android:textSize="25sp" /> <!-- Fondo semitransparente para legibilidad -->
             </FrameLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/btnReceta5s"
-            android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="10dp"
@@ -223,6 +237,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
+                    android:layout_margin="10dp"
                     app:srcCompat="@drawable/salteado" />
 
                 <TextView
@@ -230,20 +245,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom|center_horizontal"
-                    android:layout_marginBottom="10dp"
+                    android:layout_marginBottom="30dp"
                     android:background="#AA000000"
                     android:padding="5dp"
-                    android:text="Receta"
+                    android:fontFamily="@font/angkor"
+                    android:text="Ver Receta"
                     android:textAlignment="center"
-                    android:textColor="@color/color5"
-                    android:textSize="18sp" /> <!-- Fondo semitransparente para legibilidad -->
+                    android:textColor="@color/color26"
+                    android:textSize="25sp" /> <!-- Fondo semitransparente para legibilidad -->
             </FrameLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/btnReceta6s"
-            android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="10dp"
@@ -262,6 +278,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
+                    android:layout_margin="10dp"
                     app:srcCompat="@drawable/wallake" />
 
                 <TextView
@@ -269,20 +286,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom|center_horizontal"
-                    android:layout_marginBottom="10dp"
+                    android:layout_marginBottom="30dp"
                     android:background="#AA000000"
                     android:padding="5dp"
-                    android:text="Receta"
+                    android:fontFamily="@font/angkor"
+                    android:text="Ver Receta"
                     android:textAlignment="center"
-                    android:textColor="@color/color5"
-                    android:textSize="18sp" /> <!-- Fondo semitransparente para legibilidad -->
+                    android:textColor="@color/color26"
+                    android:textSize="25sp" /> <!-- Fondo semitransparente para legibilidad -->
             </FrameLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/btnReceta7s"
-            android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="10dp"
@@ -301,6 +319,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
+                    android:layout_margin="10dp"
                     app:srcCompat="@drawable/ensacesar" />
 
                 <TextView
@@ -308,20 +327,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom|center_horizontal"
-                    android:layout_marginBottom="10dp"
+                    android:layout_marginBottom="30dp"
                     android:background="#AA000000"
                     android:padding="5dp"
-                    android:text="Receta"
+                    android:fontFamily="@font/angkor"
+                    android:text="Ver Receta"
                     android:textAlignment="center"
-                    android:textColor="@color/color5"
-                    android:textSize="18sp" /><!-- Fondo semitransparente para legibilidad -->
+                    android:textColor="@color/color26"
+                    android:textSize="25sp" /><!-- Fondo semitransparente para legibilidad -->
             </FrameLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/btnReceta8s"
-            android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="10dp"
@@ -340,6 +360,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
+                    android:layout_margin="10dp"
                     app:srcCompat="@drawable/pizzacolifor" />
 
                 <TextView
@@ -347,20 +368,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom|center_horizontal"
-                    android:layout_marginBottom="10dp"
+                    android:layout_marginBottom="30dp"
                     android:background="#AA000000"
                     android:padding="5dp"
-                    android:text="Receta"
+                    android:fontFamily="@font/angkor"
+                    android:text="Ver Receta"
                     android:textAlignment="center"
-                    android:textColor="@color/color5"
-                    android:textSize="18sp" /> <!-- Fondo semitransparente para legibilidad -->
+                    android:textColor="@color/color26"
+                    android:textSize="25sp" /> <!-- Fondo semitransparente para legibilidad -->
             </FrameLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/btnReceta9s"
-            android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="10dp"
@@ -379,6 +401,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
+                    android:layout_margin="10dp"
                     app:srcCompat="@drawable/pudding" />
 
                 <TextView
@@ -386,20 +409,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom|center_horizontal"
-                    android:layout_marginBottom="10dp"
+                    android:layout_marginBottom="30dp"
                     android:background="#AA000000"
                     android:padding="5dp"
-                    android:text="Receta"
+                    android:fontFamily="@font/angkor"
+                    android:text="Ver Receta"
                     android:textAlignment="center"
-                    android:textColor="@color/color5"
-                    android:textSize="18sp" /> <!-- Fondo semitransparente para legibilidad -->
+                    android:textColor="@color/color26"
+                    android:textSize="25sp" /> <!-- Fondo semitransparente para legibilidad -->
             </FrameLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/btnReceta10s"
-            android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="10dp"
@@ -418,6 +442,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
+                    android:layout_margin="10dp"
                     app:srcCompat="@drawable/asado" />
 
                 <TextView
@@ -425,13 +450,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom|center_horizontal"
-                    android:layout_marginBottom="10dp"
+                    android:layout_marginBottom="30dp"
                     android:background="#AA000000"
                     android:padding="5dp"
-                    android:text="Receta"
+                    android:fontFamily="@font/angkor"
+                    android:text="Ver Receta"
                     android:textAlignment="center"
-                    android:textColor="@color/color5"
-                    android:textSize="18sp" /> <!-- Fondo semitransparente para legibilidad -->
+                    android:textColor="@color/color26"
+                    android:textSize="25sp" /> <!-- Fondo semitransparente para legibilidad -->
             </FrameLayout>
         </androidx.cardview.widget.CardView>
 
@@ -441,3 +467,4 @@
     </androidx.gridlayout.widget.GridLayout>
 
 </RelativeLayout>
+</ScrollView>
