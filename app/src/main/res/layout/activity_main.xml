@@ -31,47 +31,54 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-        <!-- Título -->
-        <TextView
-            android:id="@+id/appName"
-            android:layout_width="416dp"
-            android:layout_height="67dp"
-
-            android:layout_centerHorizontal="true"
-
-            android:layout_marginTop="20dp"
-            android:background="@color/color11"
-
-            android:backgroundTint="#FA7F7DF6"
-            android:fontFamily="@font/caprasimo"
-            android:padding="10dp"
-            android:shadowColor="@color/color34"
-            android:shadowDx="5"
-            android:shadowDy="12"
-            android:shadowRadius="10"
-            android:text="Registrate"
-            android:textAlignment="center"
-            android:textColor="@color/color43"
-            android:textSize="35sp"
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/materialCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="10dp"
+            app:cardBackgroundColor="@color/color13"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent">
 
-        <!-- Campos de entrada en LinearLayout -->
+            <TextView
+                android:id="@+id/tv_recetas_faciles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
 
-        <!-- Botón de Registrar -->
+                android:layout_centerHorizontal="true"
+
+                android:fontFamily="@font/alfa_slab_one"
+
+                android:padding="10dp"
+                android:shadowColor="@color/color34"
+                android:shadowDx="5"
+                android:shadowDy="12"
+                android:shadowRadius="10"
+                android:text="REGISTRATE"
+                android:textAlignment="center"
+                android:textColor="@color/color43"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </com.google.android.material.card.MaterialCardView>
+
         <LinearLayout
             android:id="@+id/linearLayout"
             android:layout_width="match_parent"
             android:layout_height="460dp"
-            android:layout_marginTop="32dp"
             android:gravity="center_horizontal"
             android:orientation="vertical"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/appName">
+            app:layout_constraintTop_toBottomOf="@+id/materialCardView">
 
             <!-- Campo de Nombre -->
             <com.google.android.material.textfield.TextInputLayout

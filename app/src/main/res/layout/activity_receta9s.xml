@@ -12,7 +12,7 @@
         android:orientation="vertical"
         android:id="@+id/main"
         android:padding="16dp"
-        tools:context=".subirpeso.receta10s"
+        tools:context=".subirpeso.receta9s"
         android:background="@drawable/fondoe">
 
         <!-- Header -->
@@ -50,27 +50,28 @@
                 android:id="@+id/iv_receta"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/ensalenteja"
+                android:src="@drawable/pudding"
                 android:scaleType="centerCrop" />
         </com.google.android.material.card.MaterialCardView>
 
         <!-- Título de receta -->
         <TextView
             android:id="@+id/receta10s"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ENSALADA DE LENTEJAS"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:textColor="@android:color/black"
             android:layout_gravity="center"
             android:layout_marginBottom="16dp"
-            android:background="@drawable/borde_black"/>
+            android:background="@drawable/borde_black"
+            android:textAlignment="center"
+            android:text="PUDDING DE QUINOA CON LECHE DE ALMENDRA"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <!-- Información (Tiempo, Raciones, Dificultad) -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="113dp"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:background="@drawable/borde_black"
             android:gravity="center"
@@ -107,16 +108,16 @@
                     android:layout_width="118dp"
                     android:layout_height="wrap_content"
 
+                    android:fontFamily="@font/adlam_display"
                     android:text="30 minutos"
                     android:textAlignment="center"
-                    android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white"
                     android:textSize="14sp" />
             </LinearLayout>
 
             <!-- Raciones -->
             <LinearLayout
-                android:layout_width="125dp"
+                android:layout_width="114dp"
                 android:layout_height="match_parent"
                 android:background="#77180A0A"
                 android:gravity="center"
@@ -126,12 +127,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/borde_black"
                     android:fontFamily="@font/adlam_display"
                     android:text="RACIONES"
-                    android:background="@drawable/borde_black"
                     android:textColor="@android:color/white"
-                    android:textSize="14sp"
-                    />
+                    android:textSize="14sp" />
 
                 <ImageView
                     android:layout_width="37dp"
@@ -143,9 +143,9 @@
                 <TextView
                     android:layout_width="97dp"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/adlam_display"
                     android:text="4 personas"
                     android:textAlignment="center"
-                    android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white"
                     android:textSize="14sp" />
             </LinearLayout>
@@ -162,9 +162,9 @@
                 <TextView
                     android:layout_width="92dp"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/borde_black"
                     android:fontFamily="@font/adlam_display"
                     android:text="DIFICULTAD"
-                    android:background="@drawable/borde_black"
                     android:textColor="@android:color/white"
                     android:textSize="14sp" />
 
@@ -178,9 +178,9 @@
                 <TextView
                     android:layout_width="122dp"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/adlam_display"
                     android:text="Facil"
                     android:textAlignment="center"
-                    android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white"
                     android:textSize="14sp" />
             </LinearLayout>
@@ -226,7 +226,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="150 g Lentejas o lentejones cocidos"
+                        android:text="1 taza de quinoa, enjuagada"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -248,7 +248,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Tomate mediano en cubos"
+                        android:text="2 tazas de leche de almendra (puedes usar sin azúcar)"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -270,7 +270,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Cebolla chica picada"
+                        android:text="1 1/4 de taza de miel o jarabe de arce (ajusta al gusto)"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -292,7 +292,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Papa chica en cubos hervida"
+                        android:text="1 cucharadita de extracto de vainilla"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -314,7 +314,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="1 Diente ajo picado fino"
+                        android:text="1/2 cucharadita de canela en polvo (opcional)"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
@@ -336,62 +336,19 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text=" Sal a gusto"
+                        android:text="Frutas frescas, nueces o semillas para decorar (opcional)"
                         android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white"/>
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_width="27dp"
-                        android:layout_height="match_parent"
-                        android:paddingTop="3dp"
-                        android:paddingBottom="3dp"
-                        android:src="@drawable/tener" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="5dp"
-                        android:text="Jugo de limó"
-                        android:fontFamily="@font/adlam_display"
-                        android:textColor="@android:color/white" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_width="27dp"
-                        android:layout_height="match_parent"
-                        android:paddingTop="10dp"
-                        android:paddingBottom="10dp"
-                        android:src="@drawable/tener" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="5dp"
-                        android:text="3 Cucharadas aceite de oliva o girasol"
-                        android:fontFamily="@font/adlam_display"
-                        android:textColor="@android:color/white" />
-                </LinearLayout>
             </LinearLayout>
 
             <!-- Tip Experto -->
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="0dp"
-                android:layout_height="296dp"
-                android:layout_weight="1"
+                android:layout_height="342dp"
                 android:layout_marginLeft="10dp"
+                android:layout_weight="1"
                 android:padding="8dp"
 
                 app:cardCornerRadius="8dp"
@@ -399,7 +356,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="296dp"
+                    android:layout_height="328dp"
                     android:layout_margin="5dp"
 
                     android:orientation="vertical">
@@ -416,12 +373,12 @@
 
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="245dp"
+                        android:layout_height="281dp"
                         android:layout_marginTop="8dp"
                         android:background="@color/color48"
                         android:fontFamily="@font/adlam_display"
                         android:padding="10dp"
-                        android:text="Las legumbres, como las lentejas y el boniato, nos aportan una buena dosis de proteína vegetal. Además, es un plato saludable y equilibrado, perfecto también para acompañar carnes, pescados u otros platos. ¡Qué pinta!"
+                        android:text="El pudding de quinoa es una excelente fuente de proteínas completas, que ayuda a mantener la saciedad y contribuye al desarrollo muscular. La leche de almendra es baja en calorías y rica en vitamina E, un antioxidante que promueve la salud de la piel. "
                         android:textAlignment="center"
                         android:textColor="@color/color29" />
                 </LinearLayout>
@@ -454,7 +411,7 @@
                 android:layout_marginTop="8dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:text="Paso 1: Colocar en un bol o asadera las lentejas. Yo usé lentejones que se cocinan muy rápido previo remojo durante al noche o por algunas horas."
+                android:text="Paso 1: Cocinar la quinoa: En una cacerola mediana, agrega la quinoa y 2 tazas de leche de almendra. Lleva a ebullición, luego reduce el fuego a bajo, cubre y cocina durante 15 minutos, o hasta que la quinoa esté tierna y haya absorbido la leche."
                 android:textColor="@android:color/white" />
 
             <TextView
@@ -463,7 +420,7 @@
                 android:layout_marginTop="4dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:text="Paso 2: Agregar el tomate en cubos, la cebolla picada fina y el diente de ajo picado fino."
+                android:text="Paso 2: Añadir los sabores: Una vez cocida la quinoa, retira del fuego y añade la miel o jarabe de arce, el extracto de vainilla y la canela. Mezcla bien para combinar."
                 android:textColor="@android:color/white" />
 
             <TextView
@@ -472,14 +429,13 @@
                 android:layout_marginTop="4dp"
                 android:justificationMode="inter_word"
                 android:padding="10dp"
-                android:text="Paso 3:
-Añadir la papa, una chica o mediana, hervida y cortada en cubos. Condimentar con sal, orégano si te gusta le queda bien, jugo de medio limón y el aceite. Listo!!"
+                android:text="Paso 3:Enfriar y servir: Deja enfriar el pudding a temperatura ambiente, luego refrigéralo durante al menos 30 minutos para que espese. Sirve frío, decorado con frutas frescas, nueces o semillas si lo deseas."
                 android:textColor="@android:color/white" />
         </LinearLayout>
 
         <!-- Más recetas -->
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btn_mas_recetas"
+            android:id="@+id/btn_mas_recetas9S"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

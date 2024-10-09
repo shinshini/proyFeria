@@ -70,7 +70,7 @@
         <!-- Información (Tiempo, Raciones, Dificultad) -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="113dp"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:background="@drawable/borde_black"
             android:gravity="center"
@@ -107,16 +107,16 @@
                     android:layout_width="118dp"
                     android:layout_height="wrap_content"
 
+                    android:fontFamily="@font/adlam_display"
                     android:text="20 minutos"
                     android:textAlignment="center"
-                    android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white"
                     android:textSize="14sp" />
             </LinearLayout>
 
             <!-- Raciones -->
             <LinearLayout
-                android:layout_width="125dp"
+                android:layout_width="112dp"
                 android:layout_height="match_parent"
                 android:background="#77180A0A"
                 android:gravity="center"
@@ -126,12 +126,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/borde_black"
                     android:fontFamily="@font/adlam_display"
                     android:text="RACIONES"
-                    android:background="@drawable/borde_black"
                     android:textColor="@android:color/white"
-                    android:textSize="14sp"
-                    />
+                    android:textSize="14sp" />
 
                 <ImageView
                     android:layout_width="37dp"
@@ -143,9 +142,9 @@
                 <TextView
                     android:layout_width="97dp"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/adlam_display"
                     android:text="4 personas"
                     android:textAlignment="center"
-                    android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white"
                     android:textSize="14sp" />
             </LinearLayout>
@@ -162,9 +161,9 @@
                 <TextView
                     android:layout_width="92dp"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/borde_black"
                     android:fontFamily="@font/adlam_display"
                     android:text="DIFICULTAD"
-                    android:background="@drawable/borde_black"
                     android:textColor="@android:color/white"
                     android:textSize="14sp" />
 
@@ -178,9 +177,9 @@
                 <TextView
                     android:layout_width="122dp"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/adlam_display"
                     android:text="Facil"
                     android:textAlignment="center"
-                    android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white"
                     android:textSize="14sp" />
             </LinearLayout>
@@ -389,7 +388,7 @@
             <!-- Tip Experto -->
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="0dp"
-                android:layout_height="394dp"
+                android:layout_height="408dp"
                 android:layout_marginLeft="10dp"
                 android:layout_weight="1"
                 android:padding="8dp"
@@ -399,7 +398,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="384dp"
+                    android:layout_height="398dp"
                     android:layout_margin="5dp"
 
                     android:orientation="vertical">
@@ -416,7 +415,7 @@
 
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="335dp"
+                        android:layout_height="356dp"
                         android:layout_marginTop="8dp"
                         android:background="@color/color48"
                         android:fontFamily="@font/adlam_display"

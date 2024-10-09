@@ -62,6 +62,7 @@
             android:text="TRUCHA AL HORNO CON LIMON"
             android:textSize="24sp"
             android:textStyle="bold"
+            android:textAlignment="center"
             android:textColor="@android:color/black"
             android:layout_gravity="center"
             android:layout_marginBottom="16dp"
@@ -70,7 +71,7 @@
         <!-- Información (Tiempo, Raciones, Dificultad) -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="113dp"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:background="@drawable/borde_black"
             android:gravity="center"
@@ -107,16 +108,16 @@
                     android:layout_width="118dp"
                     android:layout_height="wrap_content"
 
+                    android:fontFamily="@font/adlam_display"
                     android:text="20 minutos"
                     android:textAlignment="center"
-                    android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white"
                     android:textSize="14sp" />
             </LinearLayout>
 
             <!-- Raciones -->
             <LinearLayout
-                android:layout_width="125dp"
+                android:layout_width="114dp"
                 android:layout_height="match_parent"
                 android:background="#77180A0A"
                 android:gravity="center"
@@ -126,12 +127,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/borde_black"
                     android:fontFamily="@font/adlam_display"
                     android:text="RACIONES"
-                    android:background="@drawable/borde_black"
                     android:textColor="@android:color/white"
-                    android:textSize="14sp"
-                    />
+                    android:textSize="14sp" />
 
                 <ImageView
                     android:layout_width="37dp"
@@ -143,9 +143,9 @@
                 <TextView
                     android:layout_width="97dp"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/adlam_display"
                     android:text="4 porciones"
                     android:textAlignment="center"
-                    android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white"
                     android:textSize="14sp" />
             </LinearLayout>
@@ -162,9 +162,9 @@
                 <TextView
                     android:layout_width="92dp"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/borde_black"
                     android:fontFamily="@font/adlam_display"
                     android:text="DIFICULTAD"
-                    android:background="@drawable/borde_black"
                     android:textColor="@android:color/white"
                     android:textSize="14sp" />
 
@@ -178,9 +178,9 @@
                 <TextView
                     android:layout_width="122dp"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/adlam_display"
                     android:text="Medio"
                     android:textAlignment="center"
-                    android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white"
                     android:textSize="14sp" />
             </LinearLayout>

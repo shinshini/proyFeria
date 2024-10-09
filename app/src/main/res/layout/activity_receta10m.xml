@@ -62,6 +62,7 @@
             android:text="TOSTADAS DE PAN DE QUINUA CON PALTA"
             android:textSize="24sp"
             android:textStyle="bold"
+            android:textAlignment="center"
             android:textColor="@android:color/black"
             android:layout_gravity="center"
             android:layout_marginBottom="16dp"
@@ -70,7 +71,7 @@
         <!-- Información (Tiempo, Raciones, Dificultad) -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="113dp"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:background="@drawable/borde_black"
             android:gravity="center"
@@ -81,8 +82,8 @@
 
                 android:layout_width="132dp"
                 android:layout_height="match_parent"
-                android:gravity="center"
                 android:background="#77180A0A"
+                android:gravity="center"
                 android:orientation="vertical"
                 android:padding="2dp">
 
@@ -106,31 +107,30 @@
                 <TextView
                     android:layout_width="118dp"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/adlam_display"
                     android:text="25 minutos"
                     android:textAlignment="center"
-                    android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white"
                     android:textSize="14sp" />
             </LinearLayout>
 
             <!-- Raciones -->
             <LinearLayout
-                android:layout_width="125dp"
+                android:layout_width="111dp"
                 android:layout_height="match_parent"
-                android:gravity="center"
                 android:background="#77180A0A"
+                android:gravity="center"
                 android:orientation="vertical"
                 android:padding="8dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/borde_black"
                     android:fontFamily="@font/adlam_display"
                     android:text="RACIONES"
-                    android:background="@drawable/borde_black"
                     android:textColor="@android:color/white"
-                    android:textSize="14sp"
-                    />
+                    android:textSize="14sp" />
 
                 <ImageView
                     android:layout_width="37dp"
@@ -142,9 +142,9 @@
                 <TextView
                     android:layout_width="97dp"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/adlam_display"
                     android:text="2 personas"
                     android:textAlignment="center"
-                    android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white"
                     android:textSize="14sp" />
             </LinearLayout>
@@ -161,9 +161,9 @@
                 <TextView
                     android:layout_width="92dp"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/borde_black"
                     android:fontFamily="@font/adlam_display"
                     android:text="DIFICULTAD"
-                    android:background="@drawable/borde_black"
                     android:textColor="@android:color/white"
                     android:textSize="14sp" />
 
@@ -178,9 +178,9 @@
                     android:layout_width="122dp"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/adlam_display"
-                    android:textColor="@android:color/white"
                     android:text="Intermedio"
                     android:textAlignment="center"
+                    android:textColor="@android:color/white"
                     android:textSize="14sp" />
             </LinearLayout>
         </LinearLayout>
@@ -209,7 +209,7 @@
                 android:padding="5dp">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:orientation="horizontal">
@@ -222,16 +222,16 @@
                         android:src="@drawable/tener" />
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/adlam_display"
                         android:padding="5dp"
                         android:text="1/2 tazas de quinoa cocida"
-                        android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:orientation="horizontal">
@@ -239,21 +239,21 @@
                     <ImageView
                         android:layout_width="27dp"
                         android:layout_height="match_parent"
-                        android:paddingTop="10dp"
-                        android:paddingBottom="10dp"
+                        android:paddingTop="3dp"
+                        android:paddingBottom="3dp"
                         android:src="@drawable/tener" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/adlam_display"
                         android:padding="5dp"
                         android:text="huevo"
-                        android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:orientation="horizontal">
@@ -268,14 +268,14 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/adlam_display"
                         android:padding="5dp"
                         android:text="1 cucharadita de orégano en polvo"
-                        android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:orientation="horizontal">
@@ -290,14 +290,14 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/adlam_display"
                         android:padding="5dp"
                         android:text="cucharada de queso rallado"
-                        android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:orientation="horizontal">
@@ -305,21 +305,21 @@
                     <ImageView
                         android:layout_width="27dp"
                         android:layout_height="match_parent"
-                        android:paddingTop="10dp"
-                        android:paddingBottom="10dp"
+                        android:paddingTop="3dp"
+                        android:paddingBottom="3dp"
                         android:src="@drawable/tener" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/adlam_display"
                         android:padding="5dp"
                         android:text="Pimienta"
-                        android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:orientation="horizontal">
@@ -334,14 +334,14 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/adlam_display"
                         android:padding="5dp"
                         android:text=" Ajo en polvo"
-                        android:fontFamily="@font/adlam_display"
-                        android:textColor="@android:color/white"/>
+                        android:textColor="@android:color/white" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:orientation="horizontal">
@@ -356,14 +356,14 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/adlam_display"
                         android:padding="5dp"
                         android:text="Aceite de oliva"
-                        android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:orientation="horizontal">
@@ -371,24 +371,25 @@
                     <ImageView
                         android:layout_width="27dp"
                         android:layout_height="match_parent"
-                        android:paddingTop="10dp"
-                        android:paddingBottom="10dp"
+                        android:paddingTop="3dp"
+                        android:paddingBottom="3dp"
                         android:src="@drawable/tener" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/adlam_display"
                         android:padding="5dp"
                         android:text="Palta"
-                        android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/adlam_display"
                         android:padding="5dp"
                         android:text="Sal
 "
-                        android:fontFamily="@font/adlam_display"
                         android:textColor="@android:color/white" />
                 </LinearLayout>
             </LinearLayout>
@@ -396,9 +397,9 @@
             <!-- Tip Experto -->
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="0dp"
-                android:layout_height="296dp"
-                android:layout_weight="1"
+                android:layout_height="388dp"
                 android:layout_marginLeft="10dp"
+                android:layout_weight="1"
                 android:padding="8dp"
 
                 app:cardCornerRadius="8dp"
@@ -406,7 +407,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="296dp"
+                    android:layout_height="388dp"
                     android:layout_margin="5dp"
 
                     android:orientation="vertical">
@@ -423,7 +424,7 @@
 
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="245dp"
+                        android:layout_height="336dp"
                         android:layout_marginTop="8dp"
                         android:background="@color/color48"
                         android:fontFamily="@font/adlam_display"
@@ -456,7 +457,7 @@
 
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:justificationMode="inter_word"
@@ -465,7 +466,7 @@
                 android:textColor="@android:color/white" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
                 android:justificationMode="inter_word"

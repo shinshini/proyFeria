@@ -57,20 +57,21 @@
         <!-- Título de receta -->
         <TextView
             android:id="@+id/receta10s"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="QUINUA CON HUEVO Y PALTA"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:textColor="@android:color/black"
             android:layout_gravity="center"
+            android:textAlignment="center"
             android:layout_marginBottom="16dp"
-            android:background="@drawable/borde_black"/>
+            android:background="@drawable/borde_black"
+            android:text="QUINUA CON HUEVO Y PALTA"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <!-- Información (Tiempo, Raciones, Dificultad) -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="113dp"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:background="@drawable/borde_black"
             android:gravity="center"
@@ -107,16 +108,16 @@
                     android:layout_width="118dp"
                     android:layout_height="wrap_content"
 
+                    android:fontFamily="@font/adlam_display"
                     android:text="45 minutos"
                     android:textAlignment="center"
-                    android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white"
                     android:textSize="14sp" />
             </LinearLayout>
 
             <!-- Raciones -->
             <LinearLayout
-                android:layout_width="125dp"
+                android:layout_width="115dp"
                 android:layout_height="match_parent"
                 android:background="#77180A0A"
                 android:gravity="center"
@@ -126,12 +127,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/borde_black"
                     android:fontFamily="@font/adlam_display"
                     android:text="RACIONES"
-                    android:background="@drawable/borde_black"
                     android:textColor="@android:color/white"
-                    android:textSize="14sp"
-                    />
+                    android:textSize="14sp" />
 
                 <ImageView
                     android:layout_width="37dp"
@@ -143,9 +143,9 @@
                 <TextView
                     android:layout_width="97dp"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/adlam_display"
                     android:text="2 personas"
                     android:textAlignment="center"
-                    android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white"
                     android:textSize="14sp" />
             </LinearLayout>
@@ -162,9 +162,9 @@
                 <TextView
                     android:layout_width="92dp"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/borde_black"
                     android:fontFamily="@font/adlam_display"
                     android:text="DIFICULTAD"
-                    android:background="@drawable/borde_black"
                     android:textColor="@android:color/white"
                     android:textSize="14sp" />
 
@@ -178,9 +178,9 @@
                 <TextView
                     android:layout_width="122dp"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/adlam_display"
                     android:text="iNTERMEDIO"
                     android:textAlignment="center"
-                    android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white"
                     android:textSize="14sp" />
             </LinearLayout>
@@ -218,8 +218,8 @@
                     <ImageView
                         android:layout_width="27dp"
                         android:layout_height="match_parent"
-                        android:paddingTop="10dp"
-                        android:paddingBottom="10dp"
+                        android:paddingTop="3dp"
+                        android:paddingBottom="3dp"
                         android:src="@drawable/tener" />
 
                     <TextView
@@ -240,8 +240,8 @@
                     <ImageView
                         android:layout_width="27dp"
                         android:layout_height="match_parent"
-                        android:paddingTop="10dp"
-                        android:paddingBottom="10dp"
+                        android:paddingTop="3dp"
+                        android:paddingBottom="3dp"
                         android:src="@drawable/tener" />
 
                     <TextView
@@ -262,8 +262,8 @@
                     <ImageView
                         android:layout_width="27dp"
                         android:layout_height="match_parent"
-                        android:paddingTop="10dp"
-                        android:paddingBottom="10dp"
+                        android:paddingTop="2dp"
+                        android:paddingBottom="3dp"
                         android:src="@drawable/tener" />
 
                     <TextView
@@ -284,8 +284,8 @@
                     <ImageView
                         android:layout_width="27dp"
                         android:layout_height="match_parent"
-                        android:paddingTop="10dp"
-                        android:paddingBottom="10dp"
+                        android:paddingTop="3dp"
+                        android:paddingBottom="3dp"
                         android:src="@drawable/tener" />
 
                     <TextView
@@ -306,8 +306,8 @@
                     <ImageView
                         android:layout_width="27dp"
                         android:layout_height="match_parent"
-                        android:paddingTop="10dp"
-                        android:paddingBottom="10dp"
+                        android:paddingTop="3dp"
+                        android:paddingBottom="3dp"
                         android:src="@drawable/tener" />
 
                     <TextView
@@ -389,9 +389,9 @@
             <!-- Tip Experto -->
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="0dp"
-                android:layout_height="296dp"
-                android:layout_weight="1"
+                android:layout_height="493dp"
                 android:layout_marginLeft="10dp"
+                android:layout_weight="1"
                 android:padding="8dp"
 
                 app:cardCornerRadius="8dp"
@@ -399,7 +399,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="296dp"
+                    android:layout_height="478dp"
                     android:layout_margin="5dp"
 
                     android:orientation="vertical">
@@ -416,7 +416,7 @@
 
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="245dp"
+                        android:layout_height="430dp"
                         android:layout_marginTop="8dp"
                         android:background="@color/color48"
                         android:fontFamily="@font/adlam_display"

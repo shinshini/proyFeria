@@ -70,7 +70,7 @@
     <!-- Información (Tiempo, Raciones, Dificultad) -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="113dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:background="@drawable/borde_black"
         android:gravity="center"
@@ -106,16 +106,16 @@
             <TextView
                 android:layout_width="118dp"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/adlam_display"
                 android:text="1 Hora"
                 android:textAlignment="center"
-                android:fontFamily="@font/adlam_display"
                 android:textColor="@android:color/white"
                 android:textSize="14sp" />
         </LinearLayout>
 
         <!-- Raciones -->
         <LinearLayout
-            android:layout_width="125dp"
+            android:layout_width="121dp"
             android:layout_height="match_parent"
             android:background="#77180A0A"
             android:gravity="center"
@@ -125,12 +125,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@drawable/borde_black"
                 android:fontFamily="@font/adlam_display"
                 android:text="RACIONES"
-                android:background="@drawable/borde_black"
                 android:textColor="@android:color/white"
-                android:textSize="14sp"
-                />
+                android:textSize="14sp" />
 
             <ImageView
                 android:layout_width="37dp"
@@ -142,9 +141,9 @@
             <TextView
                 android:layout_width="97dp"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/adlam_display"
                 android:text="4 personas"
                 android:textAlignment="center"
-                android:fontFamily="@font/adlam_display"
                 android:textColor="@android:color/white"
                 android:textSize="14sp" />
         </LinearLayout>
@@ -177,9 +176,9 @@
             <TextView
                 android:layout_width="122dp"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/adlam_display"
                 android:text="Moderado"
                 android:textAlignment="center"
-                android:fontFamily="@font/adlam_display"
                 android:textColor="@android:color/white"
                 android:textSize="14sp" />
         </LinearLayout>
@@ -209,7 +208,7 @@
             android:padding="5dp">
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:orientation="horizontal">
@@ -217,21 +216,21 @@
                 <ImageView
                     android:layout_width="28dp"
                     android:layout_height="match_parent"
-                    android:paddingTop="10dp"
-                    android:paddingBottom="10dp"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="3dp"
                     android:src="@drawable/tener" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/adlam_display"
                     android:padding="5dp"
                     android:text="4 muslos de pollo"
-                    android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white" />
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:orientation="horizontal">
@@ -246,14 +245,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/adlam_display"
                     android:padding="5dp"
                     android:text="2 cucharadas de aceite de oliva"
-                    android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white" />
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:orientation="horizontal">
@@ -268,14 +267,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/adlam_display"
                     android:padding="5dp"
                     android:text="1 cucharadita de pimentón"
-                    android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white" />
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:orientation="horizontal">
@@ -290,14 +289,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/adlam_display"
                     android:padding="5dp"
                     android:text="1 cucharadita de comino"
-                    android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white" />
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:orientation="horizontal">
@@ -312,14 +311,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/adlam_display"
                     android:padding="5dp"
                     android:text="Sal y pimienta al gusto"
-                    android:fontFamily="@font/adlam_display"
                     android:textColor="@android:color/white" />
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:orientation="horizontal">
@@ -334,10 +333,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/adlam_display"
                     android:padding="5dp"
                     android:text="1 limón, en rodajas"
-                    android:fontFamily="@font/adlam_display"
-                    android:textColor="@android:color/white"/>
+                    android:textColor="@android:color/white" />
             </LinearLayout>
 
 
@@ -346,7 +345,7 @@
         <!-- Tip Experto -->
         <com.google.android.material.card.MaterialCardView
             android:layout_width="0dp"
-            android:layout_height="152dp"
+            android:layout_height="207dp"
             android:layout_marginLeft="10dp"
             android:layout_weight="1"
             android:padding="8dp"
@@ -373,7 +372,7 @@
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="97dp"
+                    android:layout_height="153dp"
                     android:layout_marginTop="8dp"
                     android:background="@color/color48"
                     android:fontFamily="@font/adlam_display"
@@ -406,7 +405,7 @@
 
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:justificationMode="inter_word"
@@ -415,7 +414,7 @@
             android:textColor="@android:color/white" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:justificationMode="inter_word"
@@ -435,7 +434,7 @@
 
     <!-- Más recetas -->
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_mas_recetasS10"
+        android:id="@+id/btn_mas_recetas10S"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

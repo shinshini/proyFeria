@@ -66,18 +66,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/ra" />
+                    app:srcCompat="@drawable/ensalenteja" />
 
                 <TextView
                     android:id="@+id/txtView1"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Productos"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:background="#AA000000"
+                    android:padding="5dp"
+                    android:text="Receta"
                     android:textAlignment="center"
-                    android:textColor="@color/color1"
-                    android:textSize="18sp"
-                    android:background="#AA000000"/> <!-- Fondo semitransparente para legibilidad -->
+                    android:textColor="@color/color5"
+                    android:textSize="18sp" />
             </FrameLayout>
         </androidx.cardview.widget.CardView>
 
@@ -104,18 +106,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/ra" />
+                    app:srcCompat="@drawable/sopa" />
 
                 <TextView
                     android:id="@+id/txtView2"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Productos"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:background="#AA000000"
+                    android:padding="5dp"
+                    android:text="Receta"
                     android:textAlignment="center"
-                    android:textColor="@color/color1"
-                    android:textSize="18sp"
-                    android:background="#AA000000"/> <!-- Fondo semitransparente para legibilidad -->
+                    android:textColor="@color/color5"
+                    android:textSize="18sp" />
             </FrameLayout>
         </androidx.cardview.widget.CardView>
 
@@ -141,18 +145,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/ra" />
+                    app:srcCompat="@drawable/habas" />
 
                 <TextView
                     android:id="@+id/txtView3"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Productos"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:background="#AA000000"
+                    android:padding="5dp"
+                    android:text="Receta"
                     android:textAlignment="center"
-                    android:textColor="@color/color1"
-                    android:textSize="18sp"
-                    android:background="#AA000000"/> <!-- Fondo semitransparente para legibilidad -->
+                    android:textColor="@color/color5"
+                    android:textSize="18sp" />
             </FrameLayout>
         </androidx.cardview.widget.CardView>
 
@@ -178,18 +184,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/ra" />
+                    app:srcCompat="@drawable/ensatomate" />
 
                 <TextView
                     android:id="@+id/txtView4"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Productos"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:background="#AA000000"
+                    android:padding="5dp"
+                    android:text="Receta"
                     android:textAlignment="center"
-                    android:textColor="@color/color1"
-                    android:textSize="18sp"
-                    android:background="#AA000000"/> <!-- Fondo semitransparente para legibilidad -->
+                    android:textColor="@color/color5"
+                    android:textSize="18sp" />
             </FrameLayout>
         </androidx.cardview.widget.CardView>
 
@@ -215,18 +223,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/ra" />
+                    app:srcCompat="@drawable/panquebanana" />
 
                 <TextView
                     android:id="@+id/txtView5"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Productos"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:background="#AA000000"
+                    android:padding="5dp"
+                    android:text="Receta"
                     android:textAlignment="center"
-                    android:textColor="@color/color1"
-                    android:textSize="18sp"
-                    android:background="#AA000000"/> <!-- Fondo semitransparente para legibilidad -->
+                    android:textColor="@color/color5"
+                    android:textSize="18sp" /> <!-- Fondo semitransparente para legibilidad -->
             </FrameLayout>
         </androidx.cardview.widget.CardView>
 
@@ -252,18 +262,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/ra" />
+                    app:srcCompat="@drawable/hanbuzanahoria" />
 
                 <TextView
                     android:id="@+id/txtView6"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Productos"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:background="#AA000000"
+                    android:padding="5dp"
+                    android:text="Receta"
                     android:textAlignment="center"
-                    android:textColor="@color/color1"
-                    android:textSize="18sp"
-                    android:background="#AA000000"/> <!-- Fondo semitransparente para legibilidad -->
+                    android:textColor="@color/color5"
+                    android:textSize="18sp" /> <!-- Fondo semitransparente para legibilidad -->
             </FrameLayout>
         </androidx.cardview.widget.CardView>
 
@@ -289,18 +301,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/ra" />
+                    app:srcCompat="@drawable/sopazanahoria" />
 
                 <TextView
                     android:id="@+id/txtView7"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Productos"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:background="#AA000000"
+                    android:padding="5dp"
+                    android:text="Receta"
                     android:textAlignment="center"
-                    android:textColor="@color/color1"
-                    android:textSize="18sp"
-                    android:background="#AA000000"/> <!-- Fondo semitransparente para legibilidad -->
+                    android:textColor="@color/color5"
+                    android:textSize="18sp" /><!-- Fondo semitransparente para legibilidad -->
             </FrameLayout>
         </androidx.cardview.widget.CardView>
 
@@ -326,18 +340,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/ra" />
+                    app:srcCompat="@drawable/quinuahuevo" />
 
                 <TextView
                     android:id="@+id/txtView8"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Productos"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:background="#AA000000"
+                    android:padding="5dp"
+                    android:text="Receta"
                     android:textAlignment="center"
-                    android:textColor="@color/color1"
-                    android:textSize="18sp"
-                    android:background="#AA000000"/> <!-- Fondo semitransparente para legibilidad -->
+                    android:textColor="@color/color5"
+                    android:textSize="18sp" /> <!-- Fondo semitransparente para legibilidad -->
             </FrameLayout>
         </androidx.cardview.widget.CardView>
 
@@ -363,18 +379,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/ra" />
+                    app:srcCompat="@drawable/sopatomate" />
 
                 <TextView
                     android:id="@+id/txtView9"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Productos"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:background="#AA000000"
+                    android:padding="5dp"
+                    android:text="Receta"
                     android:textAlignment="center"
-                    android:textColor="@color/color1"
-                    android:textSize="18sp"
-                    android:background="#AA000000"/> <!-- Fondo semitransparente para legibilidad -->
+                    android:textColor="@color/color5"
+                    android:textSize="18sp" /> <!-- Fondo semitransparente para legibilidad -->
             </FrameLayout>
         </androidx.cardview.widget.CardView>
 
@@ -400,18 +418,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/ra" />
+                    app:srcCompat="@drawable/tortilla" />
 
                 <TextView
                     android:id="@+id/txtView10"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Productos"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:background="#AA000000"
+                    android:padding="5dp"
+                    android:text="Receta"
                     android:textAlignment="center"
-                    android:textColor="@color/color1"
-                    android:textSize="18sp"
-                    android:background="#AA000000"/> <!-- Fondo semitransparente para legibilidad -->
+                    android:textColor="@color/color5"
+                    android:textSize="18sp" /> <!-- Fondo semitransparente para legibilidad -->
             </FrameLayout>
         </androidx.cardview.widget.CardView>
 
